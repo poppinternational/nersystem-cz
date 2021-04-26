@@ -8,8 +8,8 @@ import {
 } from "@heroicons/react/outline";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
-import Hero from "../components/hero";
-import Layout from "../components/layout";
+import Hero from "../components/index/Hero";
+import Layout from "../components/Layout";
 
 const features = [
   {

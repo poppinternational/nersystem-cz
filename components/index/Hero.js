@@ -21,7 +21,7 @@ const Hero = () => {
             </a>
             <h1 className="mt-4 text-3xl tracking-tight font-extrabold text-gray-800 sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
               <span className="block">Konečne poriadok vo</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 via-blue-500 to-pink-500">
+              <span className="block text-transparent bg-clip-text brand-gradient">
                 výrobných procesoch
               </span>
             </h1>
