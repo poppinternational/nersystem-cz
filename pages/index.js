@@ -9,7 +9,8 @@ import {
   UserGroupIcon,
 } from "@heroicons/react/outline";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
-import { ChevronRightIcon } from "@heroicons/react/solid";
+
+import Hero from "./components/hero";
 
 const features = [
   {
@@ -128,7 +129,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <div className="relative overflow-hidden">
-        <div className="bg-gray-900 pt-6">
+        <div className="bg-white pt-6">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
@@ -138,7 +139,7 @@ export default function Home() {
                 <a href="#">
                   <span className="sr-only">nersystem</span>
                   <img
-                    src="/nersystem_dark.svg"
+                    src="/nersystem.svg"
                     alt="nersystem logo"
                     className="h-8 w-auto sm:h-10"
                   />
@@ -149,72 +150,7 @@ export default function Home() {
         </div>
 
         <main>
-          <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
-            <div className="mx-auto max-w-7xl lg:px-8">
-              <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-                <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-                  <div className="lg:py-24">
-                    <a
-                      href="#"
-                      className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
-                    >
-                      <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-500 rounded-full">
-                        Hľadáme nových kolegov
-                      </span>
-                      <span className="ml-4 text-sm">Otvorené pozície</span>
-                      <ChevronRightIcon
-                        className="ml-2 w-5 h-5 text-gray-500"
-                        aria-hidden="true"
-                      />
-                    </a>
-                    <h1 className="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
-                      <span className="block">Konečne poriadok vo</span>
-                      <span className="block text-blue-400">
-                        výrobných procesoch
-                      </span>
-                    </h1>
-                    <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                      Od objednávky cez proces výroby a distribúcie až po
-                      predaj, reklamácie a servis. Všetky procesy pod jednou
-                      strechou, efektívne a prehľadne.
-                    </p>
-                    <div className="mt-10 sm:mt-12">
-                      <form
-                        action="#"
-                        className="sm:max-w-xl sm:mx-auto lg:mx-0"
-                      >
-                        <div className="sm:flex">
-                          <div className="min-w-0 flex-1">
-                            <label htmlFor="email" className="sr-only">
-                              Telefónne číslo
-                            </label>
-                            <input
-                              id="tel"
-                              type="tel"
-                              placeholder="Vaše telefónne číslo"
-                              className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-300 focus:ring-offset-gray-900"
-                            />
-                          </div>
-                          <div className="mt-3 sm:mt-0 sm:ml-3">
-                            <button
-                              type="submit"
-                              className="block w-full py-3 px-4 rounded-md shadow bg-blue-500 text-white font-medium hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-300 focus:ring-offset-gray-900"
-                            >
-                              Zavolajte mi
-                            </button>
-                          </div>
-                        </div>
-                        <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                          Bude Vás kontaktovať náš špecialista ktorý s Vami
-                          preberie XZY. Vaše číslo je u nás v bezpečí.
-                        </p>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Hero></Hero>
 
           <div className="relative bg-white py-16 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
