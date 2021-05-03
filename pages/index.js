@@ -22,31 +22,30 @@ const features = [
     name: "Riadenie výroby",
     icon: CogIcon,
     text:
-      "Správa výrobných liniek a výrobný kalendár s priamym prepojením na všetky ostatné časti výrobného a distribučného procesu",
+      "Správa výrobných liniek a procesov výroby s priamym prepojením na proces skladovania a ostatné časti distribučného procesu",
   },
   {
     name: "Logistika",
     icon: TruckIcon,
     text:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "Aktívne riedenie logistiky s priamou komunikáciou s odberateľom a následnou koordináciou montážnych pracovníkov",
   },
   {
     name: "Správa zákaziek a partnerský portál",
     icon: ChatAlt2Icon,
     text:
-      "Zabezpečenie vytvárania objednávok, ich spracovania a komunikácie pri reklamáciách, servisoch a výrobných zmenách",
+      "Online vytváranie objednávok, ich správa a následná komunikácia pri reklamácii, servisoch a výrobných zmenách",
+  },
+  {
+    name: "Konfigurátor produktov",
+    icon: ServerIcon,
+    text:
+      "Umožňuje úplné prispôsobenie atribútov produktov — od objednávky cez sklad a výrobu až po distribúciu",
   },
   {
     name: "Dochádzkový systém",
     icon: UserGroupIcon,
-    text:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis",
-  },
-  {
-    name: "Database Backups",
-    icon: ServerIcon,
-    text:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    text: "Evidencia dochádzky pomocou mobilnej aplikácie pre zamestnancov",
   },
 ];
 
