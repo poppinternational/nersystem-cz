@@ -57,7 +57,7 @@ const solutions = [
 ];
 const callsToAction = [
   { name: "Video prehliadka", href: "#", icon: PlayIcon },
-  { name: "Kontaktujte nás", href: "#", icon: PhoneIcon },
+  { name: "Kontaktujte nás", href: "/#kontakt", icon: PhoneIcon },
 ];
 const resources = [
   {
@@ -96,7 +96,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <Popover className="relative bg-white z-50">
+    <Popover className="bg-white z-50 sticky top-0">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -306,7 +306,7 @@ const Navbar = () => {
                     Prihlásenie
                   </a>
                 </Link>
-                <Link href="#">
+                <Link href="/#kontakt">
                   <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
                     Kontaktujte nás
                   </a>
@@ -334,11 +334,16 @@ const Navbar = () => {
                 <div className="pt-5 pb-6 px-5">
                   <div className="flex items-center justify-between">
                     <div>
-                      <img
-                        className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt="Workflow"
-                      />
+                      <Link href="/">
+                        <a>
+                          <span className="sr-only">NER System</span>
+                          <img
+                            src="/nersystem.svg"
+                            alt="nersystem logo"
+                            className="h-8 w-auto sm:h-10"
+                          />
+                        </a>
+                      </Link>
                     </div>
                     <div className="-mr-2">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
@@ -387,12 +392,11 @@ const Navbar = () => {
                     ))}
                   </div>
                   <div>
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
-                    >
-                      Kontaktujte nás
-                    </a>
+                    <Link href="/#kontakt">
+                      <a className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
+                        Kontaktujte nás
+                      </a>
+                    </Link>
                     <p className="mt-6 text-center text-base font-medium text-gray-500">
                       Máte NER System účet?{" "}
                       <a href="#" className="text-blue-600 hover:text-blue-500">

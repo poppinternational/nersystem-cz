@@ -101,7 +101,7 @@ const Layout = ({ children }) => {
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
       <div className="min-h-screen">
-        <div className="relative overflow-hidden">
+        <div className="relative">
           <Navbar></Navbar>
 
           <main>{children}</main>

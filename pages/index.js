@@ -182,7 +182,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="relative bg-white">
+      <div className="relative bg-white" id="kontakt">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 bg-white" />
         </div>

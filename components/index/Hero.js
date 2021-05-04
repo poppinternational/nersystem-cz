@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="lg:py-24">
             <Link href="/careers">
               <a className="inline-flex items-center text-gray-800 bg-gray-50 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-blue-700">
-                <span className="px-3 py-0.5 text-blue-900 text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-100 rounded-full">
+                <span className="hidden sm:inline px-3 py-0.5 text-blue-900 text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-100 rounded-full">
                   Hľadáme nových kolegov
                 </span>
                 <span className="ml-4 text-sm">Otvorené pozície</span>
@@ -30,34 +30,12 @@ const Hero = () => {
               reklamácie a servis. Všetky procesy pod jednou strechou, efektívne
               a prehľadne.
             </p>
-            <div className="mt-10 sm:mt-12">
-              <form action="#" className="sm:max-w-xl lg:mx-0">
-                <div className="sm:flex">
-                  <div className="min-w-0 flex-1">
-                    <label htmlFor="email" className="sr-only">
-                      Telefónne číslo
-                    </label>
-                    <input
-                      id="tel"
-                      type="tel"
-                      placeholder="Vaše telefónne číslo"
-                      className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:flex-1 border-gray-300"
-                    />
-                  </div>
-                  <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <button
-                      type="submit"
-                      className="block w-full py-3 px-4 rounded-md shadow bg-blue-600 text-white font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-300 focus:ring-offset-gray-900"
-                    >
-                      Zavolajte mi
-                    </button>
-                  </div>
-                </div>
-                <p className="mt-3 text-sm text-gray-500 sm:mt-4">
-                  Bude Vás kontaktovať náš špecialista ktorý s Vami preberie
-                  XZY. Vaše číslo je u nás v bezpečí.
-                </p>
-              </form>
+            <div className="mt-6 sm:mt-8">
+              <Link href="#kontakt">
+                <a className="inline-block py-3 px-4 rounded-md shadow bg-blue-600 text-white font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-300 focus:ring-offset-gray-900">
+                  Kontaktujte nás
+                </a>
+              </Link>
             </div>
           </div>
         </div>
