@@ -1,8 +1,12 @@
+import Head from "next/head";
 import Layout from "../components/Layout";
 
 const Careers = () => {
   return (
     <Layout>
+      <Head>
+        <title>NER System — Otvorené pracovné pozície</title>
+      </Head>
       <div className="max-w-7xl mx-auto pt-16 px-4 sm:pt-24 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">
