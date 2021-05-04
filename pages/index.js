@@ -11,6 +11,8 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import Hero from "../components/index/Hero";
 import Layout from "../components/Layout";
 
+import Link from "next/link";
+
 const features = [
   {
     name: "Sklad a management zásob",
@@ -28,7 +30,7 @@ const features = [
     name: "Logistika",
     icon: TruckIcon,
     text:
-      "Aktívne riedenie logistiky s priamou komunikáciou s odberateľom a následnou koordináciou montážnych pracovníkov",
+      "Aktívne riadenie logistiky s priamou komunikáciou s odberateľom a následnou koordináciou montážnych pracovníkov",
   },
   {
     name: "Správa zákaziek a partnerský portál",
@@ -225,9 +227,11 @@ export default function Home() {
               </dl>
               <p className="mt-6 text-base text-gray-500">
                 Hľadáme nových kolegov!{" "}
-                <a href="#" className="font-medium text-gray-700 underline">
-                  Prezrite si naše otvorené pracovné pozície.
-                </a>
+                <Link href="/careers">
+                  <a className="font-medium text-gray-700 underline">
+                    Prezrite si naše otvorené pracovné pozície.
+                  </a>
+                </Link>
                 .
               </p>
             </div>
