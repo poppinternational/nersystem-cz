@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronRightIcon } from "@heroicons/react/solid";
 
 const Hero = () => {
@@ -78,10 +79,12 @@ const Hero = () => {
               </svg>
             </div>
             <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-              <img
+              <Image
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg"
-                alt=""
+                src="/screenshot.png"
+                alt="Screenshot"
+                width={555 * 2}
+                height={400 * 2}
               />
             </div>
           </div>
