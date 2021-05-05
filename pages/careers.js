@@ -6,7 +6,7 @@ const Careers = () => {
   return (
     <Layout>
       <Head>
-        <title>NER System — Otvorené pracovné pozície</title>
+        <title>NER System — Otevřené pracovní pozice</title>
       </Head>
       <div className="max-w-7xl mx-auto pt-16 px-4 sm:pt-24 sm:px-6 lg:px-8">
         <div className="text-center">
@@ -17,8 +17,8 @@ const Careers = () => {
             Account manager
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            Pracujte pro inovativní startup v oblasti výroby a pomozte tak
-            urychlit revoluci v průmyslu
+            Pracuj pro inovativní startup v oblasti výroby a pomoz tak urychlit
+            revoluci v průmyslu
           </p>
         </div>
       </div>
@@ -138,58 +138,65 @@ const Careers = () => {
             </p>
           </div>
           <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-            <h2>Co vás u nás čeká?</h2>
+            <h2>Co tě u nás čeká?</h2>
             <ul>
               <li>
-                Identifikování nových obchodních příležitostí, jejich oslovování
-                a domlouvání schůzek{" "}
+                Hledání nových obchodních příležitostí, oslovování klientů a
+                domlouvání schůzek
               </li>
               <li>
                 Zjišťování jejich potřeb, návrhy toho, jak náš software pomůže
-                jejich businessu a zjišťování zpětné vazby pro naše produktové a
-                vývojové týmy
+                jejich businessu a zajišťování zpětné vazby pro naše produktové
+                a vývojové týmy
               </li>
               <li>Aktivní účast při implementaci systemu u klientů</li>
             </ul>
-            <h2>Jak si vás představujeme?</h2>
+            <h2>Jak si tě představujeme?</h2>
             <ul>
               <li>
-                Máte 1-2 roky praxe s komunikací s klienty (Sales, Business
+                Máš 1-2 roky praxe s komunikací s klienty (Sales, Business
                 Development, Project Manager aj.)
               </li>
               <li>
-                Máte rád/a lidi - na zákaznících nám záleží a budujeme s nimi
+                Máš rád/a lidi - na zákaznících nám záleží a budujeme s nimi
                 dlouhodobé vztahy
               </li>
-              <li>Obchod Vás baví</li>
+              <li>Obchod tě prostě baví</li>
               <li>
-                Máte dobré komunikační, vyjednávací a argumentační dovednosti
+                Máš dobré komunikační, vyjednávací a argumentační dovednosti
               </li>
-              <li>Rád/a přicházíte s novými nápady</li>
+              <li>Rád/a přicházíš s novými nápady</li>
             </ul>
-            <h2>Co nabízíme?</h2>
+            <h2>Co nabízíme my?</h2>
             <ul>
               <li>
-                Příležitost prodávat produkt, který pomáhá výrobním společnostem
-                růst
+                Příležitost prodávat produkt, který posová produktivitu
+                výrobních společností na novou úroveň
               </li>
-              <li>Spoustu nástrojů a postupů, které Vám obchod usnadní</li>
+              <li>Spoustu nástrojů a postupů, které ti obchod usnadní</li>
               <li>
                 Otevřenou a přátelskou firemní kulturu založenou na vzájemné
                 důvěře
               </li>
               <li>Teambuildingy a firemní akce</li>
-              <li>Motivační finanční ohodnocení (fix + bonusy)</li>
+              <li>
+                Motivační finanční ohodnocení (34 000 Kč - 110 000 Kč / měsíc +
+                bonusy)
+              </li>
+              <li>
+                Služební auto, homeoffice, kariérní růst, notebook, pet-friendly
+                office, pružná pracovní doba, telefon
+              </li>
             </ul>
 
             <hr />
 
             <p>
-              Chcete se k nám přidat?{" "}
+              Chceš se k nám přidat?{" "}
               <Link href="/#kontakt">
-                <a>Dejte nám o sobě vědět</a>
+                <a>Dej nám o sobě vědět</a>
               </Link>
-              , pošlete nám CV nebo LinkedIn a my se vám ozveme zpět.
+              , pošli nám CV nebo LinkedIn a my se ozveme zpět.
             </p>
           </div>
         </div>
