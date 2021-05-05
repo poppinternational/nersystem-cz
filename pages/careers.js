@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Layout from "../components/Layout";
 
 const Careers = () => {
@@ -10,14 +11,14 @@ const Careers = () => {
       <div className="max-w-7xl mx-auto pt-16 px-4 sm:pt-24 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">
-            Otvorené pracovné pozície
+            Otevřené pracovní pozice: 1
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Sales rep
+            Account manager
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            Start building for free, then add a site plan to go live. Account
-            plans unlock additional features.
+            Pracujte pro inovativní startup v oblasti výroby a pomozte tak
+            urychlit revoluci v průmyslu
           </p>
         </div>
       </div>
@@ -129,84 +130,66 @@ const Careers = () => {
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
             <p className="mt-8 text-xl text-gray-500 leading-8">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem.
-              At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at
-              vitae feugiat egestas ac. Diam nulla orci at in viverra
-              scelerisque eget. Eleifend egestas fringilla sapien.
+              Náš software pro řízení výroby a komunikaci jsme původně vyvinuli
+              pro interní účely naší sesterské výrobní firmy. Rychle jsme si ale
+              uvědomili jeho potenciál a chceme zabojovat o svoje místo na
+              globálním trhu. Z toho důvodu rozšiřujeme náš pracovní team a
+              hledáme kolegu do nově vzniklého obchodního oddělení.
             </p>
           </div>
           <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-            <p>
-              Faucibus commodo massa rhoncus, volutpat.{" "}
-              <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
-              Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-              Dignissim sed eget risus enim.{" "}
-              <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.
-            </p>
+            <h2>Co vás u nás čeká?</h2>
             <ul>
-              <li>Quis elit egestas venenatis mattis dignissim.</li>
               <li>
-                Cras cras lobortis vitae vivamus ultricies facilisis tempus.
+                Identifikování nových obchodních příležitostí, jejich oslovování
+                a domlouvání schůzek{" "}
               </li>
-              <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+              <li>
+                Zjišťování jejich potřeb, návrhy toho, jak náš software pomůže
+                jejich businessu a zjišťování zpětné vazby pro naše produktové a
+                vývojové týmy
+              </li>
+              <li>Aktivní účast při implementaci systemu u klientů</li>
             </ul>
+            <h2>Jak si vás představujeme?</h2>
+            <ul>
+              <li>
+                Máte 1-2 roky praxe s komunikací s klienty (Sales, Business
+                Development, Project Manager aj.)
+              </li>
+              <li>
+                Máte rád/a lidi - na zákaznících nám záleží a budujeme s nimi
+                dlouhodobé vztahy
+              </li>
+              <li>Obchod Vás baví</li>
+              <li>
+                Máte dobré komunikační, vyjednávací a argumentační dovednosti
+              </li>
+              <li>Rád/a přicházíte s novými nápady</li>
+            </ul>
+            <h2>Co nabízíme?</h2>
+            <ul>
+              <li>
+                Příležitost prodávat produkt, který pomáhá výrobním společnostem
+                růst
+              </li>
+              <li>Spoustu nástrojů a postupů, které Vám obchod usnadní</li>
+              <li>
+                Otevřenou a přátelskou firemní kulturu založenou na vzájemné
+                důvěře
+              </li>
+              <li>Teambuildingy a firemní akce</li>
+              <li>Motivační finanční ohodnocení (fix + bonusy)</li>
+            </ul>
+
+            <hr />
+
             <p>
-              Quis semper vulputate aliquam venenatis egestas sagittis quisque
-              orci. Donec commodo sit viverra aliquam porttitor ultrices gravida
-              eu. Tincidunt leo, elementum mattis elementum ut nisl, justo,
-              amet, mattis. Nunc purus, diam commodo tincidunt turpis. Amet,
-              duis sed elit interdum dignissim.
-            </p>
-            <h2>From beginner to expert in 30 days</h2>
-            <p>
-              Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-              consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-              vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-              pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim
-              cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-              ipsum eu a sed convallis diam.
-            </p>
-            <blockquote>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
-              </p>
-            </blockquote>
-            <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit.
-            </p>
-            <figure>
-              <img
-                className="w-full rounded-lg"
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                alt=""
-                width={1310}
-                height={873}
-              />
-              <figcaption>
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-              </figcaption>
-            </figure>
-            <h2>Everything you need to get up and running</h2>
-            <p>
-              Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>.
-              Amet, massa quam varius orci dapibus volutpat cras. In amet eu
-              ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut
-              viverra ridiculus non molestie. Gravida quis fringilla amet eget
-              dui tempor dignissim. Facilisis auctor venenatis varius nunc,
-              congue erat ac. Cras fermentum convallis quam.
-            </p>
-            <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit.
+              Chcete se k nám přidat?{" "}
+              <Link href="/#kontakt">
+                <a>Dejte nám o sobě vědět</a>
+              </Link>
+              , pošlete nám CV nebo LinkedIn a my se vám ozveme zpět.
             </p>
           </div>
         </div>
