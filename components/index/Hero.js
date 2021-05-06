@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ChevronRightIcon } from "@heroicons/react/solid";
 
 const Hero = () => {
@@ -11,9 +10,9 @@ const Hero = () => {
             <Link href="/careers">
               <a className="inline-flex items-center text-gray-800 bg-gray-50 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-blue-700">
                 <span className="hidden sm:inline px-3 py-0.5 text-blue-900 text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-100 rounded-full">
-                  Hľadáme nových kolegov
+                  Hledáme nové kolegy
                 </span>
-                <span className="ml-4 text-sm">Otvorené pozície</span>
+                <span className="ml-4 text-sm">Otevřené pozice</span>
                 <ChevronRightIcon
                   className="ml-2 w-5 h-5 text-gray-500"
                   aria-hidden="true"
@@ -21,15 +20,15 @@ const Hero = () => {
               </a>
             </Link>
             <h1 className="mt-4 text-3xl tracking-tight font-extrabold text-gray-800 sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
-              <span className="block">Konečne poriadok vo</span>
+              <span className="block">Konečně pořádek ve</span>
               <span className="block text-transparent bg-clip-text brand-gradient">
-                výrobných procesoch
+                výrobních procesech
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-              Od objednávky cez proces výroby a distribúcie až po predaj,
-              reklamácie a servis. Všetky procesy pod jednou strechou, efektívne
-              a prehľadne.
+              Od objednávky cez proces výroby a distribuce až po prodej,
+              reklamace a servis. Všechny procesy pod jednou strechou, efektivně
+              a přehledně.
             </p>
             <div className="mt-6 sm:mt-8">
               <Link href="#kontakt">

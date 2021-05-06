@@ -6,50 +6,57 @@ import {
   ServerIcon,
   UserGroupIcon,
 } from "@heroicons/react/outline";
-import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
 import Hero from "../components/index/Hero";
 import ContactForm from "../components/index/ContactForm";
 import Layout from "../components/Layout";
-
-import Link from "next/link";
-import { useState } from "react";
 
 const features = [
   {
     name: "Sklad a management zásob",
     icon: ClipboardListIcon,
     text:
+      "Přediktivní a automatizované řízení skladových pohybů a zásobování výroby",
+    text_sk:
       "Prediktívne a automatizované riadenie skladových pohybov a zásobovania výroby",
   },
   {
-    name: "Riadenie výroby",
+    name: "Řízení výroby",
     icon: CogIcon,
     text:
+      "Správa výrobních linek a procesů výroby s přímým propojením na proces skladování a ostatní části distribučního procesu",
+    text_sk:
       "Správa výrobných liniek a procesov výroby s priamym prepojením na proces skladovania a ostatné časti distribučného procesu",
   },
   {
     name: "Logistika",
     icon: TruckIcon,
     text:
+      "Aktivní řízení logistiky s přímou komunikací s odběratelem a následní koordinací montážních pracovníků",
+    text_sk:
       "Aktívne riadenie logistiky s priamou komunikáciou s odberateľom a následnou koordináciou montážnych pracovníkov",
   },
   {
-    name: "Správa zákaziek a partnerský portál",
+    name: "Správa zákazek a partnerský portál",
     icon: ChatAlt2Icon,
     text:
+      "Online vytváření objednávek, ich správa a následní komunikace při reklamaci, servisech a výrobních změnách",
+    text_sk:
       "Online vytváranie objednávok, ich správa a následná komunikácia pri reklamácii, servisoch a výrobných zmenách",
   },
   {
-    name: "Konfigurátor produktov",
+    name: "Konfigurátor produktů",
     icon: ServerIcon,
     text:
+      "Umožňuje úplné přispůsobení atributů produktů — od objednávky cez sklad a výrobu až po distribuci",
+    text_sk:
       "Umožňuje úplné prispôsobenie atribútov produktov — od objednávky cez sklad a výrobu až po distribúciu",
   },
   {
-    name: "Dochádzkový systém",
+    name: "Docházkový systém",
     icon: UserGroupIcon,
-    text: "Evidencia dochádzky pomocou mobilnej aplikácie pre zamestnancov",
+    text: "Evidence docházky s pomocí mobilní aplikace pro zaměstnance",
+    text_sk: "Evidencia dochádzky pomocou mobilnej aplikácie pre zamestnancov",
   },
 ];
 
@@ -63,14 +70,14 @@ export default function Home() {
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 className="text-base font-semibold tracking-wider text-blue-600 uppercase">
-            Kľúčové vlastnosti
+            Klíčové vlastnosti
           </h2>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-            Všetko čo výrobná firma potrebuje
+            Všechno co výrobní firma potřebuje
           </p>
           <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-            NER System poskytuje kompletnú škálu služieb, na ktoré ste doteraz
-            používali vzájomne nekompatibilný softvér a MS Excel
+            NER System poskytuje komplexní škálu služeb, na které ste doteď
+            používali vzájemně nekompatibilní softvér a MS Excel
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
