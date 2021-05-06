@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative">
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
-          <div className="lg:py-24">
+          <div className="lg:py-36 lg:mb-12">
             <Link href="/careers">
               <a className="inline-flex items-center text-gray-800 bg-gray-50 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-blue-700">
                 <span className="hidden sm:inline px-3 py-0.5 text-blue-900 text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-100 rounded-full">
@@ -79,12 +79,10 @@ const Hero = () => {
               </svg>
             </div>
             <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-              <Image
+              <img
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
                 src="/screenshot.png"
                 alt="Screenshot"
-                width={555 * 2}
-                height={400 * 2}
               />
             </div>
           </div>
