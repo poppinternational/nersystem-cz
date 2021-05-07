@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/Layout";
+import ContactForm from "../components/careers/ContactForm";
 
 const Careers = () => {
   return (
@@ -192,12 +193,10 @@ const Careers = () => {
             <hr />
 
             <p>
-              Chceš se k nám přidat?{" "}
-              <Link href="/#kontakt">
-                <a>Dej nám o sobě vědět</a>
-              </Link>
-              , pošli nám CV nebo LinkedIn a my se ozveme zpět.
+              Chceš se k nám přidat? Dej nám o sobě vědět, pošli nám CV nebo
+              LinkedIn a my se ozveme zpět.
             </p>
+            <ContactForm></ContactForm>
           </div>
         </div>
       </div>
