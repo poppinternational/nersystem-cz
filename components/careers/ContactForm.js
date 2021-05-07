@@ -20,10 +20,9 @@ export default function Home() {
     fetch("/careers", {
       method: "POST",
       headers: {
-        Accept: "multipart/form-data;charset=UTF-8",
-        "Content-Type": "multipart/form-data;charset=UTF-8",
+        "Content-Type": "multipart/form-data",
       },
-      body: new URLSearchParams(formData).toString(),
+      body: formData,
     })
       .then(() => {
         console.log("Form successfully submitted");
@@ -57,7 +56,7 @@ export default function Home() {
               id="full_name"
               autoComplete="name"
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-              placeholder="Meno"
+              placeholder="Jméno"
               required={true}
             />
           </div>
@@ -85,7 +84,7 @@ export default function Home() {
               id="phone"
               autoComplete="tel"
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-              placeholder="Telefónne číslo"
+              placeholder="Telefon"
               required={true}
             />
           </div>
@@ -99,7 +98,7 @@ export default function Home() {
               name="message"
               rows={4}
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-              placeholder="Správa"
+              placeholder="Zpráva"
               required={true}
               defaultValue={""}
             />
@@ -114,14 +113,14 @@ export default function Home() {
             {formState === FORM_STATE_OPTIONS.DONE && (
               <div className="bg-green-50 border border-green-100 rounded-md py-3 px-4">
                 <span className="text-green-900">
-                  Vaša správa bola odoslaná. Ďakujeme! Ozveme sa o chvíľu.
+                  Zpráva odeslaná! Děkujeme.
                 </span>
               </div>
             )}
             {formState === FORM_STATE_OPTIONS.ERROR && (
               <div className="bg-red-50 border border-red-100 rounded-md py-3 px-4">
                 <span className="text-red-900">
-                  Pri spracovaní požiadavky nastala chyba. Použite prosím inú
+                  Při zpracování požadavky nastala chyba. Zvolte prosím jinou
                   formu kontaktu.
                 </span>
               </div>
@@ -133,8 +132,8 @@ export default function Home() {
                 className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 disabled={formState === FORM_STATE_OPTIONS.LOADING}
               >
-                {formState === FORM_STATE_OPTIONS.IDLE && "Odoslať"}
-                {formState === FORM_STATE_OPTIONS.LOADING && "Odosielam ..."}
+                {formState === FORM_STATE_OPTIONS.IDLE && "Odeslat"}
+                {formState === FORM_STATE_OPTIONS.LOADING && "Odesílám ..."}
               </button>
             )}
           </div>
