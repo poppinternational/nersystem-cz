@@ -42,7 +42,7 @@ export default function Home() {
           data-netlify="true"
           onSubmit={processContactForm}
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="careers-contact" />
           <div>
             <label htmlFor="full_name" className="sr-only">
               Meno
