@@ -48,43 +48,34 @@ export default function Home() {
               Kontaktujte nás
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-              massa dictumst amet. Sapien tortor lacus arcu.
+              Pobavme sa jak společně posuneme produktivitu vaší výroby na novou
+              úroveň.
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
                 <dt className="sr-only">Adresa</dt>
                 <dd>
-                  <p>742 Evergreen Terrace</p>
-                  <p>Springfield, OR 12345</p>
+                  <p>NER System s.r.o.</p>
+                  <p>Žižkovská 1390</p>
+                  <p>69102 Velké Bílovice</p>
                 </dd>
               </div>
               <div className="mt-6">
-                <dt className="sr-only">Telefónne číslo</dt>
-                <dd className="flex">
-                  <PhoneIcon
-                    className="flex-shrink-0 h-6 w-6 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">+420 000 000 000</span>
-                </dd>
-              </div>
-              <div className="mt-3">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <MailIcon
                     className="flex-shrink-0 h-6 w-6 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">support@nersystem.cz</span>
+                  <span className="ml-3">info@nersystem.cz</span>
                 </dd>
               </div>
             </dl>
             <p className="mt-6 text-base text-gray-500">
-              Hľadáme nových kolegov!{" "}
+              Hledáme nové kolegy!{" "}
               <Link href="/careers">
                 <a className="font-medium text-gray-700 underline">
-                  Prezrite si naše otvorené pracovné pozície.
+                  Přezřete si naše otevřené pracovní pozíce
                 </a>
               </Link>
               .

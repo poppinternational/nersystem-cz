@@ -82,7 +82,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>NER System — Konečne poriadok vo výrobných procesoch</title>
+        <title>NER System — Konečně pořádek ve výrobních procesech</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           rel="apple-touch-icon"
