@@ -20,7 +20,7 @@ export default function Home() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "multipart/form-data" },
-      body: new URLSearchParams(formData).toString(),
+      body: formData,
     })
       .then(() => {
         console.log("Form successfully submitted");
