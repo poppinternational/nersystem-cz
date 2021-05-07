@@ -48,7 +48,7 @@ export default function Home() {
               Kontaktujte nás
             </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Pobavme sa jak společně posuneme produktivitu vaší výroby na novou
+              Pobavme se jak společně posuneme produktivitu vaší výroby na novou
               úroveň.
             </p>
             <dl className="mt-8 text-base text-gray-500">
