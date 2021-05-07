@@ -17,10 +17,13 @@ export default function Home() {
     const contactForm = event.target;
     let formData = new FormData(contactForm);
 
-    fetch("/", {
+    fetch("/careers", {
       method: "POST",
-      headers: { "Content-Type": "multipart/form-data" },
-      body: formData,
+      headers: {
+        Accept: "multipart/form-data;charset=UTF-8",
+        "Content-Type": "multipart/form-data;charset=UTF-8",
+      },
+      body: new URLSearchParams(formData).toString(),
     })
       .then(() => {
         console.log("Form successfully submitted");
@@ -37,6 +40,7 @@ export default function Home() {
     <div className="relative bg-white" id="kontakt">
       <div className="bg-white py-8 lg:py-16">
         <form
+          action="/careers"
           name="careers-contact"
           className="grid grid-cols-1 gap-y-6"
           data-netlify="true"
