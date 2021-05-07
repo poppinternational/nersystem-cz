@@ -22,7 +22,7 @@ export default function Home() {
       headers: {
         "Content-Type": "multipart/form-data",
       },
-      body: formData,
+      body: new URLSearchParams(formData).toString(),
     })
       .then(() => {
         console.log("Form successfully submitted");
