@@ -8,6 +8,12 @@ const Careers = () => {
     <Layout>
       <Head>
         <title>NER System — Otevřené pracovní pozice</title>
+        <meta property="og:title" content="NER System" />
+        <meta property="og:description" content="Hledáme nové kolegy" />
+        <meta
+          property="og:image"
+          content="https://www.nersystem.com/og_image_careers.png"
+        />
       </Head>
       <div className="max-w-7xl mx-auto pt-16 px-4 sm:pt-24 sm:px-6 lg:px-8">
         <div className="text-center">

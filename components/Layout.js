@@ -102,6 +102,15 @@ const Layout = ({ children }) => {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest"></link>
+        <meta property="og:title" content="NER System" />
+        <meta
+          property="og:description"
+          content="Konečně pořádek ve výrobních procesech"
+        />
+        <meta
+          property="og:image"
+          content="https://www.nersystem.com/og_image.png"
+        />
       </Head>
       <div className="min-h-screen">
         <div className="relative">
