@@ -51,15 +51,25 @@ export default function Home() {
               Pobavme se jak společně posuneme produktivitu vaší výroby na novou
               úroveň.
             </p>
-            <dl className="mt-8 text-base text-gray-500">
-              <div>
-                <dt className="sr-only">Adresa</dt>
-                <dd>
-                  <p>NER System s.r.o.</p>
-                  <p>Žižkovská 1390</p>
-                  <p>69102 Velké Bílovice</p>
-                </dd>
+            <dl className="mt-6 text-base text-gray-500">
+              <p className="font-medium">NER System s.r.o.</p>
+              <div className="grid grid-cols-2 gap-x-2 mt-2">
+                <div>
+                  <dt className="sr-only">Adresa CZ</dt>
+                  <dd>
+                    <p>Žižkovská 1390</p>
+                    <p>691 02 Velké Bílovice</p>
+                  </dd>
+                </div>
+                <div className="">
+                  <dt className="sr-only">Adresa SK</dt>
+                  <dd>
+                    <p>Záhradnícka 95</p>
+                    <p>821 08 Bratislava</p>
+                  </dd>
+                </div>
               </div>
+
               <div className="mt-6">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
@@ -71,7 +81,7 @@ export default function Home() {
                 </dd>
               </div>
             </dl>
-            <p className="mt-6 text-base text-gray-500">
+            <p className="mt-8 text-base text-gray-500">
               Hledáme nové kolegy!{" "}
               <Link href="/careers">
                 <a className="font-medium text-gray-700 underline">
