@@ -21,7 +21,7 @@ const Careers = () => {
             Otevřené pracovní pozice: 1
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Account manager
+            Sales manager (SaaS/B2B)
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
             Pracuj pro inovativní startup v oblasti výroby a pomoz tak urychlit
