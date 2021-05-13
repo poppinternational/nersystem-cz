@@ -21,7 +21,7 @@ const Careers = () => {
             Otevřené pracovní pozice: 1
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Sales manager (SaaS/B2B)
+            Head of sales (SaaS/B2B)
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
             Pracuj pro inovativní startup v oblasti výroby a pomoz tak urychlit
@@ -141,11 +141,12 @@ const Careers = () => {
               pro interní účely naší sesterské výrobní firmy. Rychle jsme si ale
               uvědomili jeho potenciál a chceme zabojovat o svoje místo na
               globálním trhu. Z toho důvodu rozšiřujeme náš pracovní team a
-              hledáme kolegu do nově vzniklého obchodního oddělení.
+              hledáme kolegu do nově vzniklého obchodního oddělení, kterého úkolem
+              bude toto oddělení vybudovat.
             </p>
           </div>
           <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-            <h2>Co tě u nás čeká?</h2>
+            <h2>Co tedy od tebe očekáváme?</h2>
             <ul>
               <li>
                 Hledání nových obchodních příležitostí, oslovování klientů a
@@ -157,6 +158,9 @@ const Careers = () => {
                 a vývojové týmy
               </li>
               <li>Aktivní účast při implementaci systemu u klientů</li>
+              <li>Postupné vytváření o formování obchodního oddělení</li>
+              <li>Aktivní účast na tvorbě prodejních postupů</li>
+              <li>Mentoring a motivace týmu</li>
             </ul>
             <h2>Jak si tě představujeme?</h2>
             <ul>
