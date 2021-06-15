@@ -164,7 +164,7 @@ const Careers = () => {
               <li>vytváranie automatizovaných testov</li>
               <li>udržiavanie existujúcich testov</li>
               <li>exekúcia existujucich testov a analýza výsledkov</li>
-              <li>eportovanie bugov</li>
+              <li>reportovanie bugov</li>
               <li>manualne testovanie</li>
             </ul>
             <h2>Požiadavky</h2>
@@ -172,13 +172,13 @@ const Careers = () => {
               <li>skúsenosti s testovaním softvéru</li>
               <li>zmysel pre detail</li>
               <li>analytické myslenie</li>
-              <li>základná znalosť JavaScriptu</li>
             </ul>
             <h2>Bonusové body za skúsenosti s</h2>
             <ul>
               <li>automatizované testovanie - Cypress / Selenium</li>
               <li>git</li>
-              <li>Ruby on Rails</li>
+              <li>základná znalosť JavaScriptu</li>
+              <li>framework Ruby on Rails</li>
             </ul>
 
             <h2>Pár slov o nás</h2>
