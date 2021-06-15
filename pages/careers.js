@@ -8,8 +8,8 @@ const Careers = () => {
     <Layout>
       <Head>
         <title>NER System — Otevřené pracovní pozice</title>
-        <meta property="og:title" content="NER System" />
-        <meta property="og:description" content="Hledáme nové kolegy" />
+        <meta property="og:title" content="Junior automation tester - Cypress" />
+        <meta property="og:description" content="NER System hľadá nového kolegu na pozíciu Junior automation tester vo frameworku Cypress." />
         <meta
           property="og:image"
           content="https://www.nersystem.com/og_image_careers.png"
