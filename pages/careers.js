@@ -135,28 +135,26 @@ const Careers = () => {
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
-          <div className="text-lg max-w-prose mx-auto">
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+          <div class="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+            <p>
               Part-time / Full-time
             </p>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+            <p>
               8-10€ / hodina v závislosti od skúseností
             </p>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+            <p>
               Bratislava / home office
             </p>
-          </div>
 
-          <div className="text-lg max-w-prose mx-auto">
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+            <p>
               Do nášho rozrastajúceho sa tímu v NER System hľadáme testera,
               ktorého láka automatizované testovanie. Vyvíjame systém na manažment výroby pre stredne veľké firmy.
-              Ide o webovú aplikáciu v jazyku Ruby on Rails, pre ktorú vytvárame sadu automatizovaných testov písaných v JavaScripte za pomoci frameworku <a href="https://www.cypress.io">Cypress</a>.
+              Ide o webovú aplikáciu v jazyku Ruby on Rails, pre ktorú vytvárame sadu automatizovaných testov písaných v JavaScripte za pomoci frameworku <a href="https://www.cypress.io" target="_blank">Cypress</a>.
             </p>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+            <p>
               Tvojou úlohou bude dopĺňanie nových testov podľa zadefinovanej stratégie a udržiavanie už existujúcich. Pracovať budeš pod vedením nášho skúseného senior testera, ktorý ti rád vysvetlí všetko potrebné a zabezpečí aktívny mentoring.
             </p>
-            <p className="mt-8 text-xl text-gray-500 leading-8">
+            <p>
               Sedíme vo vlastnej kancelárii v rámci coworkingu SpaceUp na Záhradníckej. Po zaučení nemáme problém s home office. Objem práce je aspoň 40 hodín mesačne, pracovný čas je flexibilný.
             </p>
           </div>
