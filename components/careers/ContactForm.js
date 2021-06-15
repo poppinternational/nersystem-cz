@@ -56,7 +56,7 @@ export default function Home() {
               id="full_name"
               autoComplete="name"
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-              placeholder="Jméno"
+              placeholder="Meno"
               required={true}
             />
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
               id="phone"
               autoComplete="tel"
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-              placeholder="Telefon"
+              placeholder="Telefón"
               required={true}
             />
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
               name="message"
               rows={4}
               className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-              placeholder="Zpráva"
+              placeholder="Správa"
               required={true}
               defaultValue={""}
             />
@@ -113,7 +113,7 @@ export default function Home() {
             {formState === FORM_STATE_OPTIONS.DONE && (
               <div className="bg-green-50 border border-green-100 rounded-md py-3 px-4">
                 <span className="text-green-900">
-                  Zpráva odeslaná! Děkujeme.
+                  Správa úspešne odoslaná! Ďakujeme.
                 </span>
               </div>
             )}
@@ -132,8 +132,8 @@ export default function Home() {
                 className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 disabled={formState === FORM_STATE_OPTIONS.LOADING}
               >
-                {formState === FORM_STATE_OPTIONS.IDLE && "Odeslat"}
-                {formState === FORM_STATE_OPTIONS.LOADING && "Odesílám ..."}
+                {formState === FORM_STATE_OPTIONS.IDLE && "Odoslať"}
+                {formState === FORM_STATE_OPTIONS.LOADING && "Posielam ..."}
               </button>
             )}
           </div>
