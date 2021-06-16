@@ -8,8 +8,8 @@ const Careers = () => {
     <Layout>
       <Head>
         <title>NER System — Otevřené pracovní pozice</title>
-        <meta property="og:title" content="Junior automation tester - Cypress" />
-        <meta property="og:description" content="NER System hľadá nového kolegu na pozíciu Junior automation tester vo frameworku Cypress." />
+        <meta property="og:title" content="Junior automation tester/ka - Cypress" />
+        <meta property="og:description" content="NER System hľadá nové posily na pozíciu Junior automation tester/ka vo frameworku Cypress." />
         <meta
           property="og:image"
           content="https://www.nersystem.com/og_image_careers.png"
@@ -21,7 +21,7 @@ const Careers = () => {
             Otevřené pracovní pozice: 1
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Junior automation tester - Cypress
+            Junior automation tester/ka - Cypress
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
             Pracuj pre inovatívny startup v oblasti výroby a pomôž tak urýchliť
@@ -147,15 +147,15 @@ const Careers = () => {
             </p>
 
             <p>
-              Do nášho rozrastajúceho sa tímu v NER System hľadáme testera,
-              ktorého láka automatizované testovanie. Vyvíjame systém na manažment výroby pre stredne veľké firmy.
+              Do nášho rozrastajúceho sa tímu v NER System hľadáme testera alebo testerku,
+              ktorých láka automatizované testovanie. Vyvíjame systém na manažment výroby pre stredne veľké firmy.
               Ide o webovú aplikáciu v jazyku Ruby on Rails, pre ktorú vytvárame sadu automatizovaných testov písaných v JavaScripte za pomoci frameworku <a href="https://www.cypress.io" target="_blank">Cypress</a>.
             </p>
             <p>
               Tvojou úlohou bude dopĺňanie nových testov podľa zadefinovanej stratégie a udržiavanie už existujúcich. Pracovať budeš pod vedením nášho skúseného senior testera, ktorý ti rád vysvetlí všetko potrebné a zabezpečí aktívny mentoring.
             </p>
             <p>
-              Sedíme vo vlastnej kancelárii v rámci coworkingu SpaceUp na Záhradníckej. Po zaučení nemáme problém s home office. Objem práce je aspoň 40 hodín mesačne, pracovný čas je flexibilný.
+              Sedíme vo vlastnej kancelárii v coworkingu SpaceUp na Záhradníckej ulici v Bratislave. Po zaučení nemáme problém s home office. Objem práce je minimálne 80 hodín mesačne, pracovný čas je flexibilný.
             </p>
           </div>
           <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
@@ -165,7 +165,7 @@ const Careers = () => {
               <li>udržiavanie existujúcich testov</li>
               <li>exekúcia existujucich testov a analýza výsledkov</li>
               <li>reportovanie bugov</li>
-              <li>manualne testovanie</li>
+              <li>manuálne testovanie</li>
             </ul>
             <h2>Požiadavky</h2>
             <ul>
