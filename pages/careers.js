@@ -8,8 +8,14 @@ const Careers = () => {
     <Layout>
       <Head>
         <title>NER System — Otevřené pracovní pozice</title>
-        <meta property="og:title" content="Junior automation tester/ka - Cypress" />
-        <meta property="og:description" content="NER System hľadá nové posily na pozíciu Junior automation tester/ka vo frameworku Cypress." />
+        <meta
+          property="og:title"
+          content="Junior automation tester/ka - Cypress"
+        />
+        <meta
+          property="og:description"
+          content="NER System hľadá nové posily na pozíciu Junior automation tester/ka vo frameworku Cypress."
+        />
         <meta
           property="og:image"
           content="https://www.nersystem.com/og_image_careers.png"
@@ -135,27 +141,33 @@ const Careers = () => {
           </div>
         </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
-          <div class="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
-            <p>
-              Part-time / Full-time
-            </p>
-            <p>
-              8-10€ / hodina v závislosti od skúseností
-            </p>
-            <p>
-              Bratislava / home office
-            </p>
+          <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+            <p>Part-time / Full-time</p>
+            <p>8-10€ / hodina v závislosti od skúseností</p>
+            <p>Bratislava / home office</p>
 
             <p>
-              Do nášho rozrastajúceho sa tímu v NER System hľadáme testera alebo testerku,
-              ktorých láka automatizované testovanie. Vyvíjame systém na manažment výroby pre stredne veľké firmy.
-              Ide o webovú aplikáciu v jazyku Ruby on Rails, pre ktorú vytvárame sadu automatizovaných testov písaných v JavaScripte za pomoci frameworku <a href="https://www.cypress.io" target="_blank">Cypress</a>.
+              Do nášho rozrastajúceho sa tímu v NER System hľadáme testera alebo
+              testerku, ktorých láka automatizované testovanie. Vyvíjame systém
+              na manažment výroby pre stredne veľké firmy. Ide o webovú
+              aplikáciu v jazyku Ruby on Rails, pre ktorú vytvárame sadu
+              automatizovaných testov písaných v JavaScripte za pomoci
+              frameworku{" "}
+              <a href="https://www.cypress.io" target="_blank">
+                Cypress
+              </a>
+              .
             </p>
             <p>
-              Tvojou úlohou bude dopĺňanie nových testov podľa zadefinovanej stratégie a udržiavanie už existujúcich. Pracovať budeš pod vedením nášho skúseného senior testera, ktorý ti rád vysvetlí všetko potrebné a zabezpečí aktívny mentoring.
+              Tvojou úlohou bude dopĺňanie nových testov podľa zadefinovanej
+              stratégie a udržiavanie už existujúcich. Pracovať budeš pod
+              vedením nášho skúseného senior testera, ktorý ti rád vysvetlí
+              všetko potrebné a zabezpečí aktívny mentoring.
             </p>
             <p>
-              Sedíme vo vlastnej kancelárii v coworkingu SpaceUp na Záhradníckej ulici v Bratislave. Po zaučení nemáme problém s home office. Objem práce je minimálne 80 hodín mesačne, pracovný čas je flexibilný.
+              Sedíme vo vlastnej kancelárii v coworkingu SpaceUp na Záhradníckej
+              ulici v Bratislave. Po zaučení nemáme problém s home office. Objem
+              práce je minimálne 80 hodín mesačne, pracovný čas je flexibilný.
             </p>
           </div>
           <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
@@ -184,11 +196,15 @@ const Careers = () => {
             <h2>Pár slov o nás</h2>
             <div className="text-lg max-w-prose mx-auto">
               <p className="mt-8 text-xl text-gray-500 leading-8">
-                Náš softvér pre riadenie výroby a komunikáciu pomáha výrobným spoločnostiam rásť. Pôvodne sme ho vyvinuli pre interné účely našej sesterskej výrobnej firmy.
-                Rýchlo sme si ale uvedomili jeho potenciál a chceme zabojovať o svoje miesto na globálnom trhu.
+                Náš softvér pre riadenie výroby a komunikáciu pomáha výrobným
+                spoločnostiam rásť. Pôvodne sme ho vyvinuli pre interné účely
+                našej sesterskej výrobnej firmy. Rýchlo sme si ale uvedomili
+                jeho potenciál a chceme zabojovať o svoje miesto na globálnom
+                trhu.
               </p>
               <p className="mt-8 text-xl text-gray-500 leading-8">
-                Nájdeš u nás otvorenú a priateľskú firemnú kultúru a príležitosť posúvať sa vo svojej kariére.
+                Nájdeš u nás otvorenú a priateľskú firemnú kultúru a príležitosť
+                posúvať sa vo svojej kariére.
               </p>
             </div>
 

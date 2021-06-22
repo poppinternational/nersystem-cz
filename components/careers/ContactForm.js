@@ -103,7 +103,7 @@ export default function Home() {
               defaultValue={""}
             />
           </div>
-          <div className="">
+          <div className="hidden">
             <label htmlFor="cv" className="sr-only">
               CV
             </label>
