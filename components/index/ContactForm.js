@@ -81,15 +81,6 @@ export default function Home() {
                 </dd>
               </div>
             </dl>
-            <p className="mt-8 text-base text-gray-500">
-              Hledáme nové kolegy!{" "}
-              <Link href="/careers">
-                <a className="font-medium text-gray-700 underline">
-                  Přezřete si naše otevřené pracovní pozíce
-                </a>
-              </Link>
-              .
-            </p>
           </div>
         </div>
         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
