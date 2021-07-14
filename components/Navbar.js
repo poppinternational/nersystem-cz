@@ -95,7 +95,7 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
-  const MENU_SHOWN = false;
+  const MENU_SHOWN = true;
 
   return (
     <Popover className="z-50 sticky top-0 border-b border-gray-50 glass">
