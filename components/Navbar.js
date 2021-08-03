@@ -23,7 +23,7 @@ const solutions = [
     name: "Sklady",
     description:
       "Prediktívne a automatizované riadenie skladových pohybov a zásobovania výroby",
-    href: "#",
+    href: "/solutions/warehouse",
     icon: ClipboardListIcon,
   },
   {
@@ -205,12 +205,6 @@ const Navbar = () => {
                     href="#"
                     className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
-                    Cenník
-                  </a>
-                  <a
-                    href="#"
-                    className="text-base font-medium text-gray-500 hover:text-gray-900"
-                  >
                     O nás
                   </a>
 
@@ -384,12 +378,6 @@ const Navbar = () => {
                 <div className="py-6 px-5 space-y-6">
                   {MENU_SHOWN && (
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                      <Link href="#">
-                        <a className="text-base font-medium text-gray-900 hover:text-gray-700">
-                          Cenník
-                        </a>
-                      </Link>
-
                       <Link href="#">
                         <a className="text-base font-medium text-gray-900 hover:text-gray-700">
                           O nás
