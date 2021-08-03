@@ -51,7 +51,7 @@ const solutions = [
     name: "Dochádzkový systém",
     description:
       "Evidencia dochádzky pomocou mobilnej aplikácie pre zamestnancov",
-    href: "#",
+    href: "/solutions/attendance",
     icon: UserGroupIcon,
   },
 ];
