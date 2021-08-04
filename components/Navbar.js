@@ -30,7 +30,7 @@ const solutions = [
     name: "Riadenie výroby",
     description:
       "Správa výrobných liniek a procesov výroby s priamym prepojením na ostatné časti",
-    href: "#",
+    href: "/solutions/production",
     icon: CogIcon,
   },
   {
@@ -116,7 +116,7 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
-                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                   <span className="sr-only">Open menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
@@ -129,7 +129,7 @@ const Navbar = () => {
                         <Popover.Button
                           className={classNames(
                             open ? "text-gray-900" : "text-gray-500",
-                            "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                            "group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                           )}
                         >
                           <span>Riešenia</span>
@@ -214,7 +214,7 @@ const Navbar = () => {
                         <Popover.Button
                           className={classNames(
                             open ? "text-gray-900" : "text-gray-500",
-                            "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                            "group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                           )}
                         >
                           <span>Viac</span>
