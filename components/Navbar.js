@@ -37,7 +37,7 @@ const solutions = [
     name: "Logistika",
     description:
       "Riadenie logistiky s komunikáciou s odberateľom a koordináciou montážnych pracovníkov",
-    href: "#",
+    href: "/solutions/logistics",
     icon: TruckIcon,
   },
   {
