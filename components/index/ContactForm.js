@@ -44,13 +44,6 @@ export default function Home() {
       <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="max-w-lg mx-auto">
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-              Kontaktujte nás
-            </h2>
-            <p className="mt-3 text-lg leading-6 text-gray-500">
-              Pobavme se jak společně posuneme produktivitu vaší výroby na novou
-              úroveň.
-            </p>
             <dl className="mt-6 text-base text-gray-500">
               <p className="font-medium">NER System s.r.o.</p>
               <div className="grid grid-cols-2 gap-x-2 mt-2">

@@ -134,7 +134,7 @@ const Production = () => {
             <img
               className="relative mx-auto"
               width={490}
-              src="https://tailwindui.com/img/features/feature-example-1.png"
+              src="/production.png"
               alt=""
             />
           </div>
