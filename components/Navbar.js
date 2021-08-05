@@ -44,7 +44,7 @@ const solutions = [
     name: "Správa zákaziek a partnerský portál",
     description:
       "Online vytváranie objednávok, reklamácie, servis a výrobné zmeny",
-    href: "#",
+    href: "/solutions/partner-portal",
     icon: ChatAlt2Icon,
   },
   {
