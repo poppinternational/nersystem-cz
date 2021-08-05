@@ -15,40 +15,35 @@ const features = [
   {
     name: "Sklad a management zásob",
     icon: ClipboardListIcon,
-    text:
-      "Přediktivní a automatizované řízení skladových pohybů a zásobování výroby",
+    text: "Přediktivní a automatizované řízení skladových pohybů a zásobování výroby",
     text_sk:
       "Prediktívne a automatizované riadenie skladových pohybov a zásobovania výroby",
   },
   {
     name: "Řízení výroby",
     icon: CogIcon,
-    text:
-      "Správa výrobních linek a procesů výroby s přímým propojením na proces skladování a ostatní části distribučního procesu",
+    text: "Správa výrobních linek a procesů výroby s přímým propojením na proces skladování a ostatní části distribučního procesu",
     text_sk:
       "Správa výrobných liniek a procesov výroby s priamym prepojením na proces skladovania a ostatné časti distribučného procesu",
   },
   {
     name: "Logistika",
     icon: TruckIcon,
-    text:
-      "Aktivní řízení logistiky s přímou komunikací s odběratelem a následní koordinací montážních pracovníků",
+    text: "Aktivní řízení logistiky s přímou komunikací s odběratelem a následní koordinací montážních pracovníků",
     text_sk:
       "Aktívne riadenie logistiky s priamou komunikáciou s odberateľom a následnou koordináciou montážnych pracovníkov",
   },
   {
     name: "Správa zákazek a partnerský portál",
     icon: ChatAlt2Icon,
-    text:
-      "Online vytváření objednávek, ich správa a následní komunikace při reklamaci, servisech a výrobních změnách",
+    text: "Online vytváření objednávek, ich správa a následní komunikace při reklamaci, servisech a výrobních změnách",
     text_sk:
       "Online vytváranie objednávok, ich správa a následná komunikácia pri reklamácii, servisoch a výrobných zmenách",
   },
   {
     name: "Konfigurátor produktů",
     icon: ServerIcon,
-    text:
-      "Umožňuje úplné přispůsobení atributů produktů — od objednávky cez sklad a výrobu až po distribuci",
+    text: "Umožňuje úplné přispůsobení atributů produktů — od objednávky cez sklad a výrobu až po distribuci",
     text_sk:
       "Umožňuje úplné prispôsobenie atribútov produktov — od objednávky cez sklad a výrobu až po distribúciu",
   },
@@ -61,7 +56,7 @@ const features = [
 ];
 
 export default function Home() {
-  const SHOW_TESTIMONIAL = false;
+  const SHOW_TESTIMONIAL = true;
 
   return (
     <Layout>
@@ -194,8 +189,6 @@ export default function Home() {
           </div>
         </section>
       )}
-
-      <ContactForm></ContactForm>
     </Layout>
   );
 }

@@ -35,7 +35,7 @@ const Hero = () => {
               a přehledně.
             </p>
             <div className="mt-6 sm:mt-8">
-              <Link href="#kontakt">
+              <Link href="/contact">
                 <a className="inline-block py-3 px-4 rounded-md shadow bg-blue-600 text-white font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-300 focus:ring-offset-gray-900">
                   Kontaktujte nás
                 </a>

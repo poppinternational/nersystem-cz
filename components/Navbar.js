@@ -57,7 +57,7 @@ const solutions = [
 ];
 const callsToAction = [
   { name: "Video prehliadka", href: "#", icon: PlayIcon },
-  { name: "Kontaktujte nás", href: "/#kontakt", icon: PhoneIcon },
+  { name: "Kontaktujte nás", href: "/contact", icon: PhoneIcon },
 ];
 const resources = [
   {
@@ -309,7 +309,7 @@ const Navbar = () => {
                     </a>
                   </Link>
                 )}
-                <Link href="#kontakt">
+                <Link href="/contact">
                   <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
                     Kontaktujte nás
                   </a>
@@ -393,7 +393,7 @@ const Navbar = () => {
                     </div>
                   )}
                   <div>
-                    <Link href="#kontakt">
+                    <Link href="/contact">
                       <a className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
                         Kontaktujte nás
                       </a>
