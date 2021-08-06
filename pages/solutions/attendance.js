@@ -2,10 +2,10 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 
 import {
-  GlobeAltIcon,
-  ScaleIcon,
-  InboxIcon,
-  SparklesIcon,
+  BookOpenIcon,
+  DeviceMobileIcon,
+  ClipboardListIcon,
+  UsersIcon,
 } from "@heroicons/react/outline";
 
 const features = [
@@ -13,13 +13,13 @@ const features = [
     name: "Prehlad dochádzky",
     description:
       "Okamžite dostupný zoznam všetkých pracovníkov spolu s ich históriou a pracovnými záznamami.",
-    icon: GlobeAltIcon,
+    icon: ClipboardListIcon,
   },
   {
     name: "Personálny management",
     description:
       "Dochádzkový systém je prepojený s plánovaním výroby na základe čoho dokáže vyhodnocovať obsadenosť jednotlivých pracovných stanovíšť a zlepšiť tak riadenie výroby.",
-    icon: ScaleIcon,
+    icon: UsersIcon,
   },
 ];
 
@@ -58,8 +58,8 @@ const Attendance = () => {
             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                    <InboxIcon
+                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
+                    <BookOpenIcon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"
                     />
@@ -120,8 +120,8 @@ const Attendance = () => {
             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
                 <div>
-                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                    <SparklesIcon
+                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
+                    <DeviceMobileIcon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"
                     />
@@ -159,7 +159,7 @@ const Attendance = () => {
           {features.map((feature) => (
             <div key={feature.name} className="relative">
               <dt>
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
                   <feature.icon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">

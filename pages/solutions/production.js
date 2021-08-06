@@ -2,11 +2,9 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
+  AdjustmentsIcon,
+  BookOpenIcon,
+  ClipboardListIcon,
 } from "@heroicons/react/outline";
 
 const transferFeatures = [
@@ -15,21 +13,21 @@ const transferFeatures = [
     name: "Jednoduchá konfigurácia",
     description:
       "Systém umožňuje jednoduché vytvorenie výrobných liniek so špecifikáciou pracovísk s možnosťou prideľovania jednotlivých pracovníkov.",
-    icon: GlobeAltIcon,
+    icon: AdjustmentsIcon,
   },
   {
     id: 2,
     name: "Plánovanie",
     description:
       "Výrobné postupy a ich jednoduché vytvorenie Vám umožnia presné plánovanie výroby jednotlivých produktov. Prijatá objednávka sa na základe výrobneho postupu automaticky zaradí do výrobnej fronty.",
-    icon: ScaleIcon,
+    icon: BookOpenIcon,
   },
   {
     id: 3,
     name: "Harmonogram",
     description:
       "Výsledkom celého procesu plánovania výroby je prehľadný harmonogram, ktorý umožňuje vedúcim pracovníkom detailne kontrolovať a riadiť samotnú výrobu a ich pracovníkov.",
-    icon: LightningBoltIcon,
+    icon: ClipboardListIcon,
   },
 ];
 

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../../components/Layout";
 
-import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
+import { ChatIcon, SparklesIcon } from "@heroicons/react/outline";
 
 const Logistics = () => {
   return (
@@ -38,8 +38,8 @@ const Logistics = () => {
             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-                    <InboxIcon
+                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
+                    <ChatIcon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"
                     />
@@ -99,7 +99,7 @@ const Logistics = () => {
             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
                 <div>
-                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-blue-600">
                     <SparklesIcon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"

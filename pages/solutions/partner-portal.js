@@ -2,11 +2,9 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
+  BriefcaseIcon,
+  ChatIcon,
+  ClipboardListIcon,
 } from "@heroicons/react/outline";
 
 const transferFeatures = [
@@ -15,21 +13,21 @@ const transferFeatures = [
     name: "Partner portál",
     description:
       "Umožňuje vstúpiť odberateľovi do časti systému, kde má možnosť konfigurovať produkty, vytvárať skladové objednávky a ma prehlad o všetkých jeho zákazkách.",
-    icon: GlobeAltIcon,
+    icon: BriefcaseIcon,
   },
   {
     id: 2,
     name: "Komunikačné tikety",
     description:
       "Súčasť partnerského portálu je možnosť priamej komunikácie prostredníctvom tiketov, ktoré uľahčujú prácu s objednávkami a riešenie problémov.",
-    icon: ScaleIcon,
+    icon: ChatIcon,
   },
   {
     id: 3,
     name: "Prehlad objednávok",
     description:
       "Partnerský portál umožňuje jednoduchú prácu a objednávkami a ich súčasťami, ako sú cenové ponuky, servis a reklamácie.",
-    icon: LightningBoltIcon,
+    icon: ClipboardListIcon,
   },
 ];
 

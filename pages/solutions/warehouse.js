@@ -2,11 +2,9 @@ import Head from "next/head";
 import Layout from "../../components/Layout";
 
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
+  SparklesIcon,
+  ClipboardCheckIcon,
+  CogIcon,
 } from "@heroicons/react/outline";
 
 const transferFeatures = [
@@ -15,21 +13,21 @@ const transferFeatures = [
     name: "Prehľad",
     description:
       "Na prvý pohľad zobrazené všetky položky, ktoré si vyžadujú pozornosť uľahčujú prácu nákupcu a následne urýchľujú reakčnú dobu.",
-    icon: GlobeAltIcon,
+    icon: ClipboardCheckIcon,
   },
   {
     id: 2,
     name: "Predikcia",
     description:
       "Pri aktívnej výrobe systém automaticky vytvára kusovníky a predikuje budúcu spotrebu na základe plánovanej výroby. Tento proces znižuje hodnotu skladu a zabezpečuje plynulý obrátkovosť.",
-    icon: ScaleIcon,
+    icon: SparklesIcon,
   },
   {
     id: 3,
     name: "Automatizácia",
     description:
       "Vzhľadom na možnosť prediktívneho vytvárania kusovníkov podla plánu výroby, dokaže systém automaticky generovať objednávky a aktivne s nimi pracovať.",
-    icon: LightningBoltIcon,
+    icon: CogIcon,
   },
 ];
 
