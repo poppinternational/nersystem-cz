@@ -10,15 +10,15 @@ import {
 
 const features = [
   {
-    name: "Prehlad dochádzky",
+    name: "Přehled docházky",
     description:
-      "Okamžite dostupný zoznam všetkých pracovníkov spolu s ich históriou a pracovnými záznamami.",
+      "Okamžitě dostupný seznam všech pracovníků spolu s jejich historií a pracovními záznamy.",
     icon: ClipboardListIcon,
   },
   {
-    name: "Personálny management",
+    name: "Personální management",
     description:
-      "Dochádzkový systém je prepojený s plánovaním výroby na základe čoho dokáže vyhodnocovať obsadenosť jednotlivých pracovných stanovíšť a zlepšiť tak riadenie výroby.",
+      "Docházkový systém je propojen s plánováním výroby na základě čehož dokáže vyhodnocovat obsazenost jednotlivých pracovních stanovišť a zlepšit tak řízení výroby.",
     icon: UsersIcon,
   },
 ];
@@ -27,8 +27,8 @@ const Attendance = () => {
   return (
     <Layout>
       <Head>
-        <title>Dochádzkový systém</title>
-        <meta property="og:title" content="NER System – Dochádzkový systém" />
+        <title>Docházkový systém</title>
+        <meta property="og:title" content="NER System – Docházkový systém" />
         <meta
           property="og:description"
           content="Přediktivní a automatizované řízení skladových pohybů a zásobování výroby."
@@ -42,11 +42,11 @@ const Attendance = () => {
               Attendance
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-              Dochádzkový systém
+              Docházkový systém
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Evidencia dochádzky prostredníctvom mobilnej aplikácie a portál
-              pre check-in a check-out zamestnancov na pracovisko
+              Evidence docházky prostřednictvím mobilní aplikace a portál pro
+              check-in a check-out zaměstnanců na pracoviště
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Attendance = () => {
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    Administračné rozhranie
+                    Administrační rozhraní
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
@@ -129,7 +129,7 @@ const Attendance = () => {
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    Mobilná aplikácia pre zamestnancov
+                    Mobilní aplikace pro zaměstnance
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
                     Semper curabitur ullamcorper posuere nunc sed. Ornare

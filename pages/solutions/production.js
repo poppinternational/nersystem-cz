@@ -10,23 +10,23 @@ import {
 const transferFeatures = [
   {
     id: 1,
-    name: "Jednoduchá konfigurácia",
+    name: "Jednoduchá konfigurace",
     description:
-      "Systém umožňuje jednoduché vytvorenie výrobných liniek so špecifikáciou pracovísk s možnosťou prideľovania jednotlivých pracovníkov.",
+      "Systém umožňuje snadné vytvoření výrobních linek se specifikací pracovišť s možností přidělování jednotlivých pracovníků.",
     icon: AdjustmentsIcon,
   },
   {
     id: 2,
-    name: "Plánovanie",
+    name: "Plánování",
     description:
-      "Výrobné postupy a ich jednoduché vytvorenie Vám umožnia presné plánovanie výroby jednotlivých produktov. Prijatá objednávka sa na základe výrobneho postupu automaticky zaradí do výrobnej fronty.",
+      "Výrobní postupy a jejich snadné vytvoření Vám umožní přesné plánování výroby jednotlivých produktů. Přijatá objednávka se na základě výrobního postupu automaticky zařadí do výrobní fronty.",
     icon: BookOpenIcon,
   },
   {
     id: 3,
     name: "Harmonogram",
     description:
-      "Výsledkom celého procesu plánovania výroby je prehľadný harmonogram, ktorý umožňuje vedúcim pracovníkom detailne kontrolovať a riadiť samotnú výrobu a ich pracovníkov.",
+      "Výsledkem celého procesu plánování výroby je přehledný harmonogram, který umožňuje vedoucím pracovníkům detailně kontrolovat a řídit samotnou výrobu a jejich pracovníků.",
     icon: ClipboardListIcon,
   },
 ];
@@ -35,8 +35,8 @@ const Production = () => {
   return (
     <Layout>
       <Head>
-        <title>NER System — Riadenie výroby</title>
-        <meta property="og:title" content="NER System – Riadenie výroby" />
+        <title>NER System — Řízení výroby</title>
+        <meta property="og:title" content="NER System – Řízení výroby" />
         <meta
           property="og:description"
           content="Přediktivní a automatizované řízení skladových pohybů a zásobování výroby."
@@ -50,11 +50,11 @@ const Production = () => {
               Warehouse
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-              Riadenie výroby
+              Řízení výroby
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Prehlad o aktuálnom a budúcom dianí vo výrobe a automatizácia,
-              ktorá predchádza stresu a chybám
+              Přehled o aktuálním a budoucím dění ve výrobě a automatizace,
+              která předchází stresu a chybám
             </p>
           </div>
         </div>
@@ -64,17 +64,17 @@ const Production = () => {
         <div className="relative mt-6 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Flexibilná automatizácia a plánovanie
+              Flexibilní automatizace a plánování
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Mechanizmus funguje na základe vytvorených výrobných postupov,
-              ktoré sa priraďujú k jednotlivým produktom a v spojení s
-              dochádzkovým systémom presne rozdeľujú prácu do pracovísk.
+              Mechanismus funguje na základě vytvořených výrobních postupů,
+              které se přiřazují k jednotlivým produktům a ve spojení s
+              docházkovým systémem přesně rozdělují práci do pracovišť.
             </p>
             <p className="mt-3 text-lg text-gray-500">
-              Tento spôsob a jeho jednoduchá konfigurácia umožní vytvoriť
-              prehľadný harmonogram, kde máte pod kontrolou všetky časti
-              výrobného procesu.
+              Tento způsob a jeho jednoduchá konfigurace umožní vytvořit
+              přehledný harmonogram, kde máte pod kontrolou všechny části
+              výrobního procesu.
             </p>
 
             <dl className="mt-10 space-y-10">

@@ -25,8 +25,8 @@ const Logistics = () => {
               Logistika
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Aktívne riedenie logistiky s priamou komunikáciou s odberateľom a
-              následnou koordináciou montážnych pracovníkov
+              Aktivní řízení logistiky s přímou komunikací s odběratelem a
+              následnou koordinací montážních pracovníků
             </p>
           </div>
         </div>
@@ -47,13 +47,12 @@ const Logistics = () => {
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    Priama komunikácia
+                    Přímá komunikace
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Termíny montáží a dodávok systém umožňuje komunikovať priamo
-                    s odberateľom prostredníctvom tiketov, kde je cela
-                    komunikácia súčasťou zákazky a tým pádom kedykoľvek spätne
-                    dohladateľná
+                    Termíny montáží a dodávek systém umožňuje komunikovat přímo
+                    s odběratelem prostřednictvím tiketů, kde je cela komunikace
+                    součástí zakázky a tím pádem kdykoliv zpětně dohledatelný
                   </p>
                 </div>
               </div>
@@ -108,11 +107,11 @@ const Logistics = () => {
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    PaperFree aplikácia
+                    PaperFree aplikace
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Všetky dokumenty, ktoré systém generuje umožňuje naša
-                    aplikácia podpisovať priamo na tablete a následne odoslať na
+                    Všechny dokumenty, které systém generuje umožňuje naše
+                    aplikace podepisovat přímo na tabletu a následně odeslat na
                     email zákazníka.
                   </p>
                 </div>

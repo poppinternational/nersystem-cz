@@ -12,21 +12,21 @@ const transferFeatures = [
     id: 1,
     name: "Partner portál",
     description:
-      "Umožňuje vstúpiť odberateľovi do časti systému, kde má možnosť konfigurovať produkty, vytvárať skladové objednávky a ma prehlad o všetkých jeho zákazkách.",
+      "Umožňuje vstoupit odběrateli do části systému, kde má možnost konfigurovat produkty, vytvářet skladové objednávky a mě přehled o všech jeho zakázkách.",
     icon: BriefcaseIcon,
   },
   {
     id: 2,
-    name: "Komunikačné tikety",
+    name: "Komunikační tikety",
     description:
-      "Súčasť partnerského portálu je možnosť priamej komunikácie prostredníctvom tiketov, ktoré uľahčujú prácu s objednávkami a riešenie problémov.",
+      "Součást partnerského portálu je možnost přímé komunikace prostřednictvím tiketů, které usnadňují práci s objednávkami a řešení problémů.",
     icon: ChatIcon,
   },
   {
     id: 3,
-    name: "Prehlad objednávok",
+    name: "Přehled objednávek",
     description:
-      "Partnerský portál umožňuje jednoduchú prácu a objednávkami a ich súčasťami, ako sú cenové ponuky, servis a reklamácie.",
+      "Partnerský portál umožňuje snadnou práci a objednávkami a jejich součástmi, jako jsou cenové nabídky, servis a reklamace.",
     icon: ClipboardListIcon,
   },
 ];
@@ -35,10 +35,10 @@ const PartnerPortal = () => {
   return (
     <Layout>
       <Head>
-        <title>NER System — Správa zákaziek a partnerský portál</title>
+        <title>NER System — Správa zakázek a partnerský portál</title>
         <meta
           property="og:title"
-          content="NER System – Správa zákaziek a partnerský portál"
+          content="NER System – Správa zakázek a partnerský portál"
         />
         <meta
           property="og:description"
@@ -53,10 +53,10 @@ const PartnerPortal = () => {
               Warehouse
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-              Správa zákaziek a partnerský portál
+              Správa zakázek a partnerský portál
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Zjednodušenie a zefektívnenie komunikácie s partnermi
+              Zjednodušení a zefektivnění komunikace s partnery
             </p>
           </div>
         </div>
@@ -66,13 +66,13 @@ const PartnerPortal = () => {
         <div className="relative mt-6 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Jednoduchá komunikácia s partnermi
+              Jednoduchá komunikace s partnermi
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Partnerský portál dovoľuje vstúpiť odberateľom do systému, kde
-              majú možnosť sami vytvárať objednávky, konfigurovať produkty a
-              následne ich spravovať formou komunikačných tiketov, ktoré sú
-              automaticky pridelované zodpovedným pracovníkom.
+              Partnerský portál dovoluje vstoupit odběratelům do systému, kde
+              mají možnost sami vytvářet objednávky, konfigurovat produkty a
+              následně je spravovat formou komunikačních tiketů, které jsou
+              automaticky přidělovány odpovědným pracovníkem.
             </p>
 
             <dl className="mt-10 space-y-10">

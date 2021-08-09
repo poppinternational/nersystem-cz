@@ -10,23 +10,23 @@ import {
 const transferFeatures = [
   {
     id: 1,
-    name: "Prehľad",
+    name: "Přehled",
     description:
-      "Na prvý pohľad zobrazené všetky položky, ktoré si vyžadujú pozornosť uľahčujú prácu nákupcu a následne urýchľujú reakčnú dobu.",
+      "Na první pohled zobrazeny všechny položky, které vyžadují pozornost usnadňují práci nákupčího a následně urychlují reakční dobu.",
     icon: ClipboardCheckIcon,
   },
   {
     id: 2,
-    name: "Predikcia",
+    name: "Predikce",
     description:
-      "Pri aktívnej výrobe systém automaticky vytvára kusovníky a predikuje budúcu spotrebu na základe plánovanej výroby. Tento proces znižuje hodnotu skladu a zabezpečuje plynulý obrátkovosť.",
+      "Při aktivní výrobě systém automaticky vytváří kusovníky a predikuje budoucí spotřebu na základě plánované výroby. Tento proces snižuje hodnotu skladu a zajišťuje plynulý obrátkovost.",
     icon: SparklesIcon,
   },
   {
     id: 3,
-    name: "Automatizácia",
+    name: "Automatizace",
     description:
-      "Vzhľadom na možnosť prediktívneho vytvárania kusovníkov podla plánu výroby, dokaže systém automaticky generovať objednávky a aktivne s nimi pracovať.",
+      "Vzhledem k možnosti inteligentního vkládání kusovníků podle plánu výroby, dokaže systém automaticky generovat objednávky a aktivne s nimi pracovat.",
     icon: CogIcon,
   },
 ];
@@ -56,8 +56,8 @@ const Warehouse = () => {
               Sklad a management zásob
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Zjednodušenie a zefektívnenie celého procesu objednávania a
-              udržiavania skladu pri minimálnych nákladoch
+              Zjednodušení a zefektivnění celého procesu objednávání a udržování
+              skladu při minimálních nákladech
             </p>
           </div>
         </div>
