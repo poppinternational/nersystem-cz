@@ -138,6 +138,14 @@ const Production = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-16 mx-auto px-4 sm:px-6 lg:px-8">
+        <img
+          src="/mistr-censored.png"
+          alt=""
+          className="relative rounded-lg shadow-lg"
+        />
+      </div>
     </Layout>
   );
 };

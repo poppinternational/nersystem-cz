@@ -69,7 +69,7 @@ const Warehouse = () => {
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
               Moderná správa skladu
             </h3>
-            <p className="mt-3 text-lg text-gray-500">
+            <p className="mt-3 text-lg text-gray-500 hidden">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               minima sequi recusandae, porro maiores officia assumenda aliquam
               laborum ab aliquid veritatis impedit odit adipisci optio iste

@@ -36,9 +36,9 @@ const About = () => {
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">
-                  Před čtyřmi lety naše firma procházela přerodem z malé na
-                  středně velkou společnost, kterou přirozeně provázela změna
-                  procesů a organizace. Jedním z logických kroků byl výběr
+                  Před čtyřmi lety naše sesteřská firma procházela přerodem z
+                  malé na středně velkou společnost, kterou přirozeně provázela
+                  změna procesů a organizace. Jedním z logických kroků byl výběr
                   systému pro řízení těchto procesů ve firmě.
                 </p>
                 <p className="text-base leading-7">
@@ -54,7 +54,11 @@ const About = () => {
                   Z naší jasné představy o dalším fungování firmy vycházelo
                   jediné možné řešení - vlastní systém. NER vznikal 4 roky a
                   postupně dostal finální podobu, která, věříme, bude usnadňovat
-                  řízení kompletní provozu každé výrobní společnosti.
+                  řízení kompletního provozu každé výrobní společnosti.
+                </p>
+
+                <p className="text-base leading-7">
+                  Za tu dobu se NER podařilo dosáhnout mnoha úspěchů:
                 </p>
               </div>
             </div>

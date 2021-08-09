@@ -56,7 +56,7 @@ const features = [
 ];
 
 export default function Home() {
-  const SHOW_TESTIMONIAL = true;
+  const SHOW_TESTIMONIAL = false;
 
   return (
     <Layout>
