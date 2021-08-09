@@ -27,7 +27,7 @@ const Attendance = () => {
   return (
     <Layout>
       <Head>
-        <title>Docházkový systém</title>
+        <title>NER System – Docházkový systém</title>
         <meta property="og:title" content="NER System – Docházkový systém" />
         <meta
           property="og:description"
@@ -39,7 +39,7 @@ const Attendance = () => {
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">
-              Attendance
+              NER Attendance
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
               Docházkový systém
@@ -70,15 +70,13 @@ const Attendance = () => {
                     Administrační rozhraní
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Semper curabitur ullamcorper posuere nunc sed. Ornare
-                    iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Získejte komplexní pohled do evidence docházky. Zobrazení
+                    žádostí o dovolenou ve speciálním kalendáři nebo tabulkovém
+                    přehledu Vám usnadní jejich posuzování.
                   </p>
                 </div>
               </div>
-              <div className="mt-8 border-t border-gray-200 pt-6">
+              <div className="mt-8 border-t border-gray-200 pt-6 hidden">
                 <blockquote>
                   <div>
                     <p className="text-base text-gray-500">
@@ -132,11 +130,9 @@ const Attendance = () => {
                     Mobilní aplikace pro zaměstnance
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Semper curabitur ullamcorper posuere nunc sed. Ornare
-                    iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Žádný hardware - jedna aplikace pro všechny. Umožnuje
+                    vytvářet a spravovat všechny typy nepřítomnosti. Informace o
+                    docházce jsou přímo propojeny s aktuální a budoucí výrobou.
                   </p>
                 </div>
               </div>

@@ -8,13 +8,14 @@ import {
 } from "@heroicons/react/outline";
 
 import Hero from "../components/index/Hero";
-import ContactForm from "../components/index/ContactForm";
 import Layout from "../components/Layout";
+import Link from "next/link";
 
 const features = [
   {
     name: "Sklad a management zásob",
     icon: ClipboardListIcon,
+    link: "/solutions/warehouse",
     text: "Přediktivní a automatizované řízení skladových pohybů a zásobování výroby",
     text_sk:
       "Prediktívne a automatizované riadenie skladových pohybov a zásobovania výroby",
@@ -22,6 +23,7 @@ const features = [
   {
     name: "Řízení výroby",
     icon: CogIcon,
+    link: "/solutions/production",
     text: "Správa výrobních linek a procesů výroby s přímým propojením na proces skladování a ostatní části distribučního procesu",
     text_sk:
       "Správa výrobných liniek a procesov výroby s priamym prepojením na proces skladovania a ostatné časti distribučného procesu",
@@ -29,6 +31,7 @@ const features = [
   {
     name: "Logistika",
     icon: TruckIcon,
+    link: "/solutions/logistics",
     text: "Aktivní řízení logistiky s přímou komunikací s odběratelem a následní koordinací montážních pracovníků",
     text_sk:
       "Aktívne riadenie logistiky s priamou komunikáciou s odberateľom a následnou koordináciou montážnych pracovníkov",
@@ -36,6 +39,7 @@ const features = [
   {
     name: "Správa zákazek a partnerský portál",
     icon: ChatAlt2Icon,
+    link: "/solutions/partner-portal",
     text: "Online vytváření objednávek, ich správa a následní komunikace při reklamaci, servisech a výrobních změnách",
     text_sk:
       "Online vytváranie objednávok, ich správa a následná komunikácia pri reklamácii, servisoch a výrobných zmenách",
@@ -43,6 +47,7 @@ const features = [
   {
     name: "Konfigurátor produktů",
     icon: ServerIcon,
+    link: "/solutions/production",
     text: "Umožňuje úplné přispůsobení atributů produktů — od objednávky cez sklad a výrobu až po distribuci",
     text_sk:
       "Umožňuje úplné prispôsobenie atribútov produktov — od objednávky cez sklad a výrobu až po distribúciu",
@@ -50,6 +55,7 @@ const features = [
   {
     name: "Docházkový systém",
     icon: UserGroupIcon,
+    link: "/solutions/attendance",
     text: "Evidence docházky s pomocí mobilní aplikace pro zaměstnance",
     text_sk: "Evidencia dochádzky pomocou mobilnej aplikácie pre zamestnancov",
   },
@@ -88,9 +94,13 @@ export default function Home() {
                           />
                         </span>
                       </div>
-                      <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                        {feature.name}
-                      </h3>
+                      <Link href={feature.link}>
+                        <a className="text-gray-900 hover:bg-blue-600 transition">
+                          <h3 className="mt-8 text-lg font-medium  tracking-tight">
+                            {feature.name}
+                          </h3>
+                        </a>
+                      </Link>
                       <p className="mt-5 text-base text-gray-500">
                         {feature.text}
                       </p>
