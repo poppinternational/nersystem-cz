@@ -7,7 +7,6 @@ import {
   CogIcon,
   MenuIcon,
   PhoneIcon,
-  PlayIcon,
   UserGroupIcon,
   ShieldCheckIcon,
   TruckIcon,
@@ -199,6 +198,11 @@ const Navbar = () => {
                       </>
                     )}
                   </Popover>
+                  <Link href="/about">
+                    <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                      O nás
+                    </a>
+                  </Link>
                 </Popover.Group>
               )}
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -267,6 +271,15 @@ const Navbar = () => {
                       </nav>
                     </div>
                   )}
+                </div>
+                <div className="py-6 px-5 space-y-6">
+                  <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+                    <Link href="/about">
+                      <a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                        O nás
+                      </a>
+                    </Link>
+                  </div>
                 </div>
                 <div className="py-6 px-5 space-y-6">
                   <div>
