@@ -96,9 +96,9 @@ const PartnerPortal = () => {
 
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
-              className="relative mx-auto rounded-lg shadow-lg"
+              className="relative w-full"
               width={490}
-              src="/partner.jpg"
+              src="/partner-portal.png"
               alt=""
             />
           </div>
