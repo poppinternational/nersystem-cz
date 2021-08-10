@@ -21,35 +21,34 @@ const solutions = [
   {
     name: "Sklady",
     description:
-      "Prediktívne a automatizované riadenie skladových pohybov a zásobovania výroby",
+      "Prediktivní a automatizované řízení skladových pohybů a zásobování výroby",
     href: "/solutions/warehouse",
     icon: ClipboardListIcon,
   },
   {
-    name: "Riadenie výroby",
+    name: "Řízení výroby",
     description:
-      "Správa výrobných liniek a procesov výroby s priamym prepojením na ostatné časti",
+      "Správa výrobních linek a procesů výroby s přímým propojením na ostatní části",
     href: "/solutions/production",
     icon: CogIcon,
   },
   {
     name: "Logistika",
     description:
-      "Riadenie logistiky s komunikáciou s odberateľom a koordináciou montážnych pracovníkov",
+      "Řízení logistiky s komunikací s odběratelem a koordinací montážních pracovníků",
     href: "/solutions/logistics",
     icon: TruckIcon,
   },
   {
-    name: "Správa zákaziek a partnerský portál",
+    name: "Správa zakázek a partnerský portál",
     description:
-      "Online vytváranie objednávok, reklamácie, servis a výrobné zmeny",
+      "Online vytváření objednávek, reklamace, servis a výrobní změny",
     href: "/solutions/partner-portal",
     icon: ChatAlt2Icon,
   },
   {
-    name: "Dochádzkový systém",
-    description:
-      "Evidencia dochádzky pomocou mobilnej aplikácie pre zamestnancov",
+    name: "Docházkový systém",
+    description: "Evidence docházky pomocí mobilní aplikace pro zaměstnance",
     href: "/solutions/attendance",
     icon: UserGroupIcon,
   },
@@ -130,7 +129,7 @@ const Navbar = () => {
                             "group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                           )}
                         >
-                          <span>Riešenia</span>
+                          <span>Řešení</span>
                           <ChevronDownIcon
                             className={classNames(
                               open ? "text-gray-600" : "text-gray-400",
