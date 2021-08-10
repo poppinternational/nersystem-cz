@@ -111,6 +111,17 @@ const Layout = ({ children }) => {
           property="og:image"
           content="https://www.nersystem.com/og_image.png"
         />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var leady_track_key="X6OHc21JwFgfP3qC";
+						(function(){
+							var l=document.createElement("script");l.type="text/javascript";l.async=true;
+							l.src='https://t.leady.com/'+leady_track_key+"/L.js";
+							var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(l,s);
+						})();`,
+          }}
+        />
       </Head>
       <div className="min-h-screen">
         <div className="relative">
