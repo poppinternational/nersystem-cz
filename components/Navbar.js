@@ -205,6 +205,12 @@ const Navbar = () => {
                 </Popover.Group>
               )}
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                <a
+                  href="https://app.nersystem.cz/admin/signin"
+                  className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+                >
+                  Přihlášení
+                </a>
                 <Link href="/contact">
                   <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
                     Kontaktujte nás
@@ -287,6 +293,15 @@ const Navbar = () => {
                         Kontaktujte nás
                       </a>
                     </Link>
+                    <p className="mt-6 text-center text-base font-medium text-gray-500">
+                      Máte NER System účet?{" "}
+                      <a
+                        href="https://app.nersystem.cz/admin/signin"
+                        className="text-blue-600 hover:text-blue-500"
+                      >
+                        Přihlášení
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
