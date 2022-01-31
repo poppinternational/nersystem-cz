@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Layout>
       <Head>
-        <title>Logistika</title>
+        <title>NER System | Kontakt</title>
         <meta property="og:title" content="NER System – Kontakt" />
         <meta
           property="og:description"

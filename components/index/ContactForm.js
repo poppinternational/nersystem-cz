@@ -45,34 +45,6 @@ export default function Home() {
         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="max-w-lg mx-auto">
             <dl className="mt-6 text-base text-gray-500">
-              <p className="font-medium">Váš kontakt: Andrej Čupka</p>
-              <p>Senior Business Manager</p>
-
-              <div className="mt-6">
-                <dt className="sr-only">Telefon</dt>
-                <dd className="flex">
-                  <PhoneIcon
-                    className="flex-shrink-0 h-6 w-6 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">+420 739 464 965</span>
-                </dd>
-              </div>
-              <div className="mt-2">
-                <dt className="sr-only">Email</dt>
-                <dd className="flex">
-                  <MailIcon
-                    className="flex-shrink-0 h-6 w-6 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">cupka@nersystem.cz</span>
-                </dd>
-              </div>
-            </dl>
-
-            <hr className="mt-6" />
-
-            <dl className="mt-6 text-base text-gray-500">
               <p className="font-medium">NER System s.r.o.</p>
               <div className="grid grid-cols-2 gap-x-2 mt-2">
                 <div>
@@ -92,13 +64,23 @@ export default function Home() {
               </div>
 
               <div className="mt-6">
+                <dt className="sr-only">Telefon</dt>
+                <dd className="flex">
+                  <PhoneIcon
+                    className="flex-shrink-0 h-6 w-6 text-gray-400"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3"><a href="tel:+420777969084" target="_blank">+420 777 969 084</a></span>
+                </dd>
+              </div>
+              <div className="mt-2">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <MailIcon
                     className="flex-shrink-0 h-6 w-6 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">info@nersystem.cz</span>
+                  <span className="ml-3"><a href="mailto:info@nersystem.cz" target="_blank">info@nersystem.cz</a></span>
                 </dd>
               </div>
             </dl>
