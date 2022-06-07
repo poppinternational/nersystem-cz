@@ -30,8 +30,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-              Od objednávky cez proces výroby a distribuce až po prodej,
-              reklamace a servis. Všechny procesy pod jednou strechou, efektivně
+              Od objednávky přes proces výroby a distribuce až po prodej,
+              reklamace a servis. Všechny procesy pod jednou střechou, efektivně
               a přehledně.
             </p>
             <div className="mt-6 sm:mt-8">

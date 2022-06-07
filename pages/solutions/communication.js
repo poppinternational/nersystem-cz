@@ -1,45 +1,38 @@
 import Head from "next/head";
 import Layout from "../../components/Layout";
 
-import {
-  BriefcaseIcon,
-  ChatIcon,
-  ClipboardListIcon,
-} from "@heroicons/react/outline";
+import { BriefcaseIcon, ChatIcon, UserIcon } from "@heroicons/react/outline";
 
 const transferFeatures = [
   {
     id: 1,
-    name: "Partner portál",
+    name: "Tikety",
     description:
-      "Umožňuje vstoupit odběrateli do části systému, kde má možnost konfigurovat produkty, vytvářet skladové objednávky a mít přehled o všech jeho zakázkách včetně fakturace.",
-    icon: BriefcaseIcon,
-  },
-  {
-    id: 2,
-    name: "Komunikační tikety",
-    description:
-      "Součástí partnerského portálu je možnost přímé komunikace prostřednictvím tiketů, které usnadňují práci s objednávkami a řešením problémů.",
+      "Komunikace probíhá prostřednictvím tiketů, které se vytváří vždy za konkrétním účelem a řadí se k zakázce v daném stádiu výrobního procesu.",
     icon: ChatIcon,
   },
   {
-    id: 3,
-    name: "Přehled objednávek",
+    id: 2,
+    name: "Přehled",
     description:
-      "Partnerský portál umožňuje snadnou práci s objednávkami a jejich náležitostmi jako jsou cenové nabídky, servis a reklamace.",
-    icon: ClipboardListIcon,
+      "Každý vytvořený druh tiketu má dopředu určeného uživatele, čímž systém udržuje informovanost zodpovědných pracovníků a pomáhá jim držet se nastavených procesů",
+    icon: UserIcon,
+  },
+  {
+    id: 3,
+    name: "Partnerský portál",
+    description:
+      "Součástí NER je partnerský portál, do kterého vstupují odběratelé a mají zde kompletní přehled o všem, co se děje s jejich objednávkami",
+    icon: BriefcaseIcon,
   },
 ];
 
-const PartnerPortal = () => {
+const Communication = () => {
   return (
     <Layout>
       <Head>
-        <title>NER System — Správa zakázek a partnerský portál</title>
-        <meta
-          property="og:title"
-          content="NER System – Správa zakázek a partnerský portál"
-        />
+        <title>NER System — Komunikace</title>
+        <meta property="og:title" content="NER System – Komunikace" />
         <meta
           property="og:description"
           content="Přediktivní a automatizované řízení skladových pohybů a zásobování výroby."
@@ -53,10 +46,10 @@ const PartnerPortal = () => {
               NER NOW
             </h2>
             <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-              Správa zakázek a partnerský portál
+              Komunikace
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Zjednodušení a zefektivnění komunikace s partnery
+              Interní i externí komunikace na jednom místě
             </p>
           </div>
         </div>
@@ -66,13 +59,12 @@ const PartnerPortal = () => {
         <div className="relative mt-6 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Jednoduchá komunikace
+              Konec zapomenutých emailů
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Partnerský portál dovoluje vstoupit odběratelům do systému, kde
-              mají možnost sami vytvářet objednávky, konfigurovat produkty a
-              následně je spravovat formou komunikačních tiketů, které jsou
-              automaticky přidělovány odpovědným pracovníkům.
+              Díky NER máte veškerou interní i externí komunikaci na jednom
+              místě bez nutnosti zasílání e-mailů, zamezíte nedorozuměním a
+              urychlíte odpovědi.
             </p>
 
             <dl className="mt-10 space-y-10">
@@ -96,9 +88,9 @@ const PartnerPortal = () => {
 
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
-              className="relative w-full"
+              className="relative w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5"
               width={490}
-              src="/partner-portal.png"
+              src="/tickets.png"
               alt=""
             />
           </div>
@@ -108,4 +100,4 @@ const PartnerPortal = () => {
   );
 };
 
-export default PartnerPortal;
+export default Communication;

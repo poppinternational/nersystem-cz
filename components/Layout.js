@@ -115,11 +115,11 @@ const Layout = ({ children }) => {
         <script
           dangerouslySetInnerHTML={{
             __html: `var leady_track_key="X6OHc21JwFgfP3qC";
-						(function(){
-							var l=document.createElement("script");l.type="text/javascript";l.async=true;
-							l.src='https://t.leady.com/'+leady_track_key+"/L.js";
-							var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(l,s);
-						})();`,
+            (function(){
+              var l=document.createElement("script");l.type="text/javascript";l.async=true;
+              l.src='https://t.leady.com/'+leady_track_key+"/L.js";
+              var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(l,s);
+            })();`,
           }}
         />
       </Head>
@@ -161,7 +161,7 @@ const Layout = ({ children }) => {
                   ))}
               </div>
               <p className="mt-8 text-center text-base text-gray-400">
-                &copy; 2021 Nersystem s.r.o.
+                &copy; {new Date().getFullYear()} Nersystem s.r.o.
               </p>
             </div>
           </footer>

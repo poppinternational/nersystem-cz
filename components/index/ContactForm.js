@@ -70,7 +70,11 @@ export default function Home() {
                     className="flex-shrink-0 h-6 w-6 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3"><a href="tel:+420777969084" target="_blank">+420 777 969 084</a></span>
+                  <span className="ml-3">
+                    <a href="tel:+420777969084" target="_blank">
+                      +420 777 969 084
+                    </a>
+                  </span>
                 </dd>
               </div>
               <div className="mt-2">
@@ -80,7 +84,11 @@ export default function Home() {
                     className="flex-shrink-0 h-6 w-6 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3"><a href="mailto:info@nersystem.cz" target="_blank">info@nersystem.cz</a></span>
+                  <span className="ml-3">
+                    <a href="mailto:info@nersystem.cz" target="_blank">
+                      info@nersystem.cz
+                    </a>
+                  </span>
                 </dd>
               </div>
             </dl>
@@ -98,7 +106,7 @@ export default function Home() {
               <input type="hidden" name="form-name" value="contact" />
               <div>
                 <label htmlFor="full_name" className="sr-only">
-                  Meno
+                  Jméno
                 </label>
                 <input
                   type="text"
@@ -106,7 +114,7 @@ export default function Home() {
                   id="full_name"
                   autoComplete="name"
                   className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-                  placeholder="Meno"
+                  placeholder="Jméno"
                   required={true}
                 />
               </div>
@@ -126,7 +134,7 @@ export default function Home() {
               </div>
               <div>
                 <label htmlFor="phone" className="sr-only">
-                  Telefónne číslo
+                  Telefonní číslo
                 </label>
                 <input
                   type="tel"
@@ -134,20 +142,20 @@ export default function Home() {
                   id="phone"
                   autoComplete="tel"
                   className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-                  placeholder="Telefónne číslo"
+                  placeholder="Telefonní číslo"
                   required={true}
                 />
               </div>
               <div>
                 <label htmlFor="message" className="sr-only">
-                  Správa
+                  Zpráva
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
                   className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
-                  placeholder="Správa"
+                  placeholder="Zpráva"
                   required={true}
                   defaultValue={""}
                 />

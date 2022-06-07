@@ -14,10 +14,18 @@ import {
   ChatAlt2Icon,
   XIcon,
   LightningBoltIcon,
+  ChatAltIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const solutions = [
+  {
+    name: "Správa zakázek a partnerský portál",
+    description:
+      "Online vytváření objednávek, reklamace, servis a výrobní změny",
+    href: "/solutions/partner-portal",
+    icon: ChatAlt2Icon,
+  },
   {
     name: "Sklady",
     description:
@@ -40,17 +48,16 @@ const solutions = [
     icon: TruckIcon,
   },
   {
-    name: "Správa zakázek a partnerský portál",
-    description:
-      "Online vytváření objednávek, reklamace, servis a výrobní změny",
-    href: "/solutions/partner-portal",
-    icon: ChatAlt2Icon,
-  },
-  {
     name: "Docházkový systém",
     description: "Evidence docházky pomocí mobilní aplikace pro zaměstnance",
     href: "/solutions/attendance",
     icon: UserGroupIcon,
+  },
+  {
+    name: "Komunikace",
+    description: "Interní i externí komunikace na jednom místě",
+    href: "/solutions/communication",
+    icon: ChatAltIcon,
   },
 ];
 const callsToAction = [

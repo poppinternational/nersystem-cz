@@ -12,21 +12,21 @@ const transferFeatures = [
     id: 1,
     name: "Přehled",
     description:
-      "Na první pohled zobrazeny všechny položky, které vyžadují pozornost usnadňují práci nákupčího a následně urychlují reakční dobu.",
+      "Zobrazení všech položek, které vyžadují pozornost, usnadňují práci nákupčímu i plánovači a následně urychlují reakční dobu.",
     icon: ClipboardCheckIcon,
   },
   {
     id: 2,
     name: "Predikce",
     description:
-      "Při aktivní výrobě systém automaticky vytváří kusovníky a predikuje budoucí spotřebu na základě plánované výroby. Tento proces snižuje hodnotu skladu a zajišťuje plynulý obrátkovost.",
+      "Systém automaticky vytváří kusovníky a predikuje budoucí spotřebu na základě plánované výroby. Tento proces snižuje hodnotu skladu a zajišťuje plynulou obrátkovost zásob.",
     icon: SparklesIcon,
   },
   {
     id: 3,
     name: "Automatizace",
     description:
-      "Vzhledem k možnosti inteligentního vkládání kusovníků podle plánu výroby, dokaže systém automaticky generovat objednávky a aktivne s nimi pracovat.",
+      "Vzhledem k možnosti inteligentního vkládání kusovníků podle plánu výroby dokáže systém automaticky generovat objednávky a aktivně s nimi pracovat.",
     icon: CogIcon,
   },
 ];
@@ -67,7 +67,7 @@ const Warehouse = () => {
         <div className="relative mt-6 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Moderná správa skladu
+              Moderní skladové hospodářství
             </h3>
             <p className="mt-3 text-lg text-gray-500 hidden">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur

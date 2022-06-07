@@ -36,25 +36,25 @@ const About = () => {
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">
-                  Před čtyřmi lety naše sesteřská firma procházela přerodem z
-                  malé na středně velkou společnost, kterou přirozeně provázela
-                  změna procesů a organizace. Jedním z logických kroků byl výběr
-                  systému pro řízení těchto procesů ve firmě.
+                  Před čtyřmi lety naše sesterská firma procházela přerodem z
+                  malé na středně velkou společnost, který přirozeně doprovází
+                  změna procesů a vnitřní organizace. Jedním z logických kroků
+                  byl výběr správného ERP systému.
                 </p>
                 <p className="text-base leading-7">
-                  Naší první myšlenkou, ani záměrem nebylo vytvoření vlastního
-                  systému; našim plánem bylo využití existujícího produktu. Po
-                  několikaměsíčním testování pravděpodobně všech dostupných
-                  softwarů na trhu se naše představa o systému napříč firmou,
-                  který začíná konfigurací produktů odběratelem a končí
-                  závěrečnou logistickou operací, včetně servisních řešení,
-                  velmi rychle rozplynula.
+                  Vytvoření vlastního systému nebylo naší první myšlenkou ani
+                  záměrem. Naším plánem bylo najít a využít již existující
+                  produkt. Po několikaměsíčním testování pravděpodobně všech
+                  dostupných softwarů na trhu se naše představa o systému, který
+                  začíná u odběratele konfigurováním produktu a končí logistikou
+                  (popřípadě servisními úkony), velmi rychle rozplynula.
                 </p>
                 <p className="text-base leading-7">
                   Z naší jasné představy o dalším fungování firmy vycházelo
                   jediné možné řešení - vlastní systém. NER vznikal 4 roky a
-                  postupně dostal finální podobu, která, věříme, bude usnadňovat
-                  řízení kompletního provozu každé výrobní společnosti.
+                  postupně dostával finální podobu, která jak věříme, bude
+                  usnadňovat řízení kompletního provozu každé výrobní
+                  společnosti.
                 </p>
 
                 <p className="text-base leading-7">

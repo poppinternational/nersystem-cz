@@ -18,7 +18,7 @@ const features = [
   {
     name: "Personální management",
     description:
-      "Docházkový systém je propojen s plánováním výroby na základě čehož dokáže vyhodnocovat obsazenost jednotlivých pracovních stanovišť a zlepšit tak řízení výroby.",
+      "Docházkový systém je propojen s plánováním výroby, díky tomu dokáže vyhodnocovat obsazenost jednotlivých pracovních stanovišť a zlepšit tak řízení výroby.",
     icon: UsersIcon,
   },
 ];
@@ -46,7 +46,7 @@ const Attendance = () => {
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
               Evidence docházky prostřednictvím mobilní aplikace a portál pro
-              check-in a check-out zaměstnanců na pracoviště
+              check-in a check-out zaměstnanců na pracovištích
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ const Attendance = () => {
                     Administrační rozhraní
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Získejte komplexní pohled do evidence docházky. Zobrazení
+                    Získejte komplexní přehled o evidenci docházky. Zobrazení
                     žádostí o dovolenou ve speciálním kalendáři nebo tabulkovém
                     přehledu Vám usnadní jejich posuzování.
                   </p>
@@ -168,6 +168,14 @@ const Attendance = () => {
             </div>
           ))}
         </dl>
+      </div>
+
+      <div className="container mt-16 mx-auto px-4 sm:px-6 lg:px-8">
+        <img
+          src="/attendance_overview.png"
+          alt=""
+          className="relative rounded-lg shadow-lg"
+        />
       </div>
     </Layout>
   );

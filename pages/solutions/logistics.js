@@ -25,8 +25,8 @@ const Logistics = () => {
               Logistika
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Aktivní řízení logistiky s přímou komunikací s odběratelem a
-              následnou koordinací montážních pracovníků
+              Aktivní řízení logistiky pomocí přímé komunikace s odběratelem a
+              následné koordinace montážních pracovníků
             </p>
           </div>
         </div>
@@ -50,9 +50,14 @@ const Logistics = () => {
                     Přímá komunikace
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Termíny montáží a dodávek systém umožňuje komunikovat přímo
-                    s odběratelem prostřednictvím tiketů, kde je cela komunikace
-                    součástí zakázky a tím pádem kdykoliv zpětně dohledatelný
+                    Systém umožňuje spravovat termíny montáží a dodávky přímo s
+                    odběratelem prostřednictvím tiketů, ve kterých je celá
+                    komunikace vztažená ke konkrétní zakázce a tím je kdykoliv
+                    zpětně dohledatelná
+                  </p>
+                  <p className="mt-4 text-lg text-gray-500">
+                    V jednom tiketu může probíhat zároveň interní komunikace a
+                    komunikace mezi odpovědným pracovníkem a partnerem
                   </p>
                 </div>
               </div>
@@ -86,7 +91,7 @@ const Logistics = () => {
               <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="/logistics.png"
+                  src="/logistics_new.png"
                   alt=""
                 />
               </div>
@@ -110,7 +115,7 @@ const Logistics = () => {
                     PaperFree aplikace
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Všechny dokumenty, které systém generuje umožňuje naše
+                    Všechny dokumenty, které systém generuje, umožňuje naše
                     aplikace podepisovat přímo na tabletu a následně odeslat na
                     email zákazníka.
                   </p>

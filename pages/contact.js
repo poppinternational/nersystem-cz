@@ -10,7 +10,7 @@ const Contact = () => {
         <meta property="og:title" content="NER System – Kontakt" />
         <meta
           property="og:description"
-          content="Pobavme se jak společně posuneme produktivitu vaší výroby na novou úroveň."
+          content="Pojďme společně posunout produktivitu Vaší výroby na novou úroveň."
         />
       </Head>
 
@@ -21,8 +21,7 @@ const Contact = () => {
               Kontakt
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Pobavme se jak společně posuneme produktivitu vaší výroby na novou
-              úroveň
+              Pojďme společně posunout produktivitu Vaší výroby na novou úroveň
             </p>
           </div>
         </div>

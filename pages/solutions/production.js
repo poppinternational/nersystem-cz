@@ -5,6 +5,7 @@ import {
   AdjustmentsIcon,
   BookOpenIcon,
   ClipboardListIcon,
+  CogIcon,
 } from "@heroicons/react/outline";
 
 const transferFeatures = [
@@ -12,22 +13,29 @@ const transferFeatures = [
     id: 1,
     name: "Jednoduchá konfigurace",
     description:
-      "Systém umožňuje snadné vytvoření výrobních linek se specifikací pracovišť s možností přidělování jednotlivých pracovníků.",
+      "Systém umožňuje snadné vytvoření výrobních linek se specifikací pracovišť včetně možnosti přidělování jednotlivých pracovníků.",
     icon: AdjustmentsIcon,
   },
   {
     id: 2,
     name: "Plánování",
     description:
-      "Výrobní postupy a jejich snadné vytvoření Vám umožní přesné plánování výroby jednotlivých produktů. Přijatá objednávka se na základě výrobního postupu automaticky zařadí do výrobní fronty.",
+      "Výrobní postupy a jejich snadné vytváření Vám umožní přesné plánování výroby jednotlivých produktů. Přijatá objednávka se na základě výrobního postupu automaticky zařadí do výrobní fronty.",
     icon: BookOpenIcon,
   },
   {
     id: 3,
     name: "Harmonogram",
     description:
-      "Výsledkem celého procesu plánování výroby je přehledný harmonogram, který umožňuje vedoucím pracovníkům detailně kontrolovat a řídit samotnou výrobu a jejich pracovníků.",
+      "Výsledkem celého procesu plánování výroby je přehledný harmonogram, který umožňuje vedoucím pracovníkům detailně kontrolovat a řídit samotnou výrobu i jejich pracovníky.",
     icon: ClipboardListIcon,
+  },
+  {
+    id: 4,
+    name: "Výroba",
+    description:
+      "Veškeré potřebné podklady pro výrobu se promítají pracovníkům na tabletu včetně výkresové dokumentace. Systém umožňuje zahájit a ukončit danou operaci včetně pozastavení práce a na základě vzniklého problému informuje vedoucího pracovníka, který má neustálý přehled o jednotlivých stanovištích a průběhu výroby. Výdejky materiálů a příjemky polotovarů/hotových výrobků se generují skladníkům automaticky a stačí je pouze schválit.",
+    icon: CogIcon,
   },
 ];
 
@@ -53,8 +61,9 @@ const Production = () => {
               Řízení výroby
             </p>
             <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-              Přehled o aktuálním a budoucím dění ve výrobě a automatizace,
-              která předchází stresu a chybám
+              Přehled o&nbsp;aktuálním a&nbsp;budoucím dění ve výrobě.
+              Automatizace, která předchází stresu a&nbsp;chybám a&nbsp;dává
+              prostor pro pokrok a&nbsp;inovace.
             </p>
           </div>
         </div>
@@ -139,7 +148,7 @@ const Production = () => {
         </div>
       </div>
 
-      <div className="mt-16 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mt-16 mx-auto px-4 sm:px-6 lg:px-8">
         <img
           src="/mistr-censored.png"
           alt=""
